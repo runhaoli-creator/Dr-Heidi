@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2604.10165",
+  "version": "2604.10165v1",
+  "title": "MoRI: Mixture of RL and IL Experts for Long-Horizon Manipulation Tasks",
+  "summary": "Reinforcement Learning (RL) and Imitation Learning (IL) are the standard frameworks for policy acquisition in manipulation. While IL offers efficient policy derivation, it suffers from compounding errors and distribution shift. Conversely, RL facilitates autonomous exploration but is frequently hindered by low sample efficiency and the high cost of trial and error. Since existing hybrid methods often struggle with complex tasks, we introduce Mixture of RL and IL Experts (MoRI). This system dynamically switches between IL and RL experts based on the variance of expert actions to handle coarse movements and fine-grained manipulations. MoRI employs an offline pre-training stage followed by online fine-tuning to accelerate convergence. To maintain exploration safety and minimize human intervention, the system applies IL-based regularization to the RL component. Evaluation across four complex real-world tasks shows that MoRI achieves an average success rate of 97.5% within 2 to 5 hours of fine-tuning. Compared to baseline RL algorithms, MoRI reduces human intervention by 85.8% and shortens convergence time by 21%, demonstrating its capability in robotic manipulation.",
+  "authors": [
+    "Yaohang Xu",
+    "Lianjie Ma",
+    "Gewei Zuo",
+    "Wentao Zhang",
+    "Han Ding",
+    "Lijun Zhu"
+  ],
+  "published": "2026-04-11T11:24:39Z",
+  "updated": "2026-04-11T11:24:39Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.10165v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.10165v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.607320+00:00"
+}

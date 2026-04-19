@@ -1,0 +1,57 @@
+# Dr. Agent arXiv query set — Embodied AI / Robotics / WAM / VLA
+# Each group is OR'd within keywords, AND'd with categories.
+# Keywords with AND/OR/quotes MUST be wrapped in single quotes (YAML escaping).
+# Keep keywords specific; broad terms alone will flood results.
+# Edit freely; re-run paper-scout after changes.
+updated: 2026-04-18
+
+groups:
+  - name: vla
+    label: Vision-Language-Action Models
+    keywords:
+      - "vision-language-action"
+      - "VLA model"
+      - "generalist robot policy"
+      - "vision language action"
+    categories: [cs.RO, cs.LG, cs.CV]
+
+  - name: wam
+    label: World / Action Models for Embodied Agents
+    keywords:
+      - "world action model"
+      - '"world model" AND robot'
+      - '"world model" AND manipulation'
+      - '"dynamics model" AND embodied'
+      - '"latent dynamics" AND manipulation'
+    categories: [cs.RO, cs.LG, cs.AI]
+
+  - name: embodied_foundation
+    label: Embodied Foundation Models
+    keywords:
+      - "embodied foundation model"
+      - "robot foundation model"
+      - '"foundation model" AND manipulation'
+    categories: [cs.RO, cs.AI]
+
+  - name: long_horizon
+    label: Long-Horizon Planning & Reasoning
+    keywords:
+      - "long-horizon manipulation"
+      - "embodied reasoning"
+      - '"LLM planner" AND robot'
+      - '"hierarchical policy" AND manipulation'
+    categories: [cs.RO, cs.AI, cs.LG]
+
+  - name: sim_to_real
+    label: Sim-to-Real / Data Scaling
+    keywords:
+      - '"sim-to-real" AND manipulation'
+      - '"synthetic data" AND "robot policy"'
+      - '"real-world scaling" AND robot'
+    categories: [cs.RO, cs.LG]
+
+# Post-fetch heuristic filters (applied after arXiv API).
+filters:
+  min_year: 2024
+  drop_title_contains: []        # e.g. ["survey"] to drop surveys
+  require_abstract_match: true   # keep only if a group keyword appears in title or abstract

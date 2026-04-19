@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2604.01346",
+  "version": "2604.01346v2",
+  "title": "Safety, Security, and Cognitive Risks in World Models",
+  "summary": "World models - learned internal simulators of environment dynamics - are rapidly becoming foundational to autonomous decision-making in robotics, autonomous vehicles, and agentic AI. By predicting future states in compressed latent spaces, they enable sample-efficient planning and long-horizon imagination without direct environment interaction. Yet this predictive power introduces a distinctive set of safety, security, and cognitive risks. Adversaries can corrupt training data, poison latent representations, and exploit compounding rollout errors to cause significant degradation in safety-critical deployments. At the alignment layer, world model-equipped agents are more capable of goal misgeneralisation, deceptive alignment, and reward hacking. At the human layer, authoritative world model predictions foster automation bias, miscalibrated trust, and planning hallucination. This paper surveys the world model landscape; introduces formal definitions of trajectory persistence and representational risk; presents a five-profile attacker taxonomy; and develops a unified threat model drawing on MITRE ATLAS and the OWASP LLM Top 10. We provide an empirical proof-of-concept demonstrating trajectory-persistent adversarial attacks on a GRU-based RSSM ($\\mathcal{A}_1 = 2.26\\times$ amplification, $-59.5\\%$ reward reduction under adversarial fine-tuning), validate architecture-dependence via a stochastic RSSM proxy ($\\mathcal{A}_1 = 0.65\\times$), and probe a real DreamerV3 checkpoint (non-zero action drift confirmed). We propose interdisciplinary mitigations spanning adversarial hardening, alignment engineering, NIST AI RMF and EU AI Act governance, and human-factors design, arguing that world models require the same rigour as flight-control software or medical devices.",
+  "authors": [
+    "Manoj Parmar"
+  ],
+  "published": "2026-04-01T19:57:33Z",
+  "updated": "2026-04-06T19:07:02Z",
+  "primary_category": "cs.CR",
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.01346v2",
+  "pdf_url": "https://arxiv.org/pdf/2604.01346v2",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-19T04:42:14.699982+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2603.13315",
+  "version": "2603.13315v2",
+  "title": "Bi-HIL: Bilateral Control-Based Multimodal Hierarchical Imitation Learning via Subtask-Level Progress Rate and Keyframe Memory for Long-Horizon Contact-Rich Robotic Manipulation",
+  "summary": "Long-horizon contact-rich robotic manipulation remains challenging due to partial observability and unstable subtask transitions under contact uncertainty. While hierarchical architectures improve temporal reasoning and bilateral imitation learning enables force-aware control, existing approaches often rely on flat policies that struggle with long-horizon coordination. We propose Bi-HIL, a bilateral control-based multimodal hierarchical imitation learning framework for long-horizon manipulation. Bi-HIL stabilizes hierarchical coordination by integrating keyframe memory with subtask-level progress rate that models phase progression within the active subtask and conditions both high- and low-level policies. We evaluate Bi-HIL on unimanual and bimanual real-robot tasks, demonstrating consistent improvements over flat and ablated variants. The results highlight the importance of explicitly modeling subtask progression together with force-aware control for robust long-horizon manipulation. For additional material, please check: https://mertcookimg.github.io/bi-hil",
+  "authors": [
+    "Thanpimon Buamanee",
+    "Masato Kobayashi",
+    "Yuki Uranishi"
+  ],
+  "published": "2026-03-04T09:16:30Z",
+  "updated": "2026-03-26T08:14:19Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.13315v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.13315v2",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-19T04:42:22.294694+00:00"
+}

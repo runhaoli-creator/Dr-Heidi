@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2603.13785",
+  "version": "2603.13785v1",
+  "title": "Robust Sim-to-Real Cloth Untangling through Reduced-Resolution Observations via Adaptive Force-Difference Quantization",
+  "summary": "Robotic cloth untangling requires progressively disentangling fabric by adapting pulling actions to changing contact and tension conditions. Because large-scale real-world training is impractical due to cloth damage and hardware wear, sim-to-real policy transfer is a promising solution. However, cloth manipulation is highly sensitive to interaction dynamics, and policies that depend on precise force magnitudes often fail after transfer because similar force responses cannot be reproduced due to the reality gap. We observe that untangling is largely characterized by qualitative tension transitions rather than exact force values. This indicates that directly minimizing the sim-to-real gap in raw force measurements does not necessarily align with the task structure. We therefore hypothesize that emphasizing coarse force-change patterns while suppressing fine environment-dependent variations can improve robustness of sim-to-real transfer. Based on this insight, we propose Adaptive Force-Difference Quantization (ADQ), which reduces observation resolution by representing force inputs as discretized temporal differences and learning state-dependent quantization thresholds adaptively. This representation mitigates overfitting to environment-specific force characteristics and facilitates direct sim-to-real transfer. Experiments in both simulation and real-world cloth untangling demonstrate that ADQ achieves higher success rates and exhibits greater robustness in sim-to-real transfer than policies using raw force inputs. Supplementary video is available at https://youtu.be/ZeoBs-t0AWc",
+  "authors": [
+    "Yoshihisa Tsurumine",
+    "Yuki Kadokawa",
+    "Kohei Hayashi",
+    "Christian Diehm",
+    "Takamitsu Matsubara"
+  ],
+  "published": "2026-03-14T06:27:07Z",
+  "updated": "2026-03-14T06:27:07Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.13785v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.13785v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-19T04:42:26.451535+00:00"
+}

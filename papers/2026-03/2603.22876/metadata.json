@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2603.22876",
+  "version": "2603.22876v1",
+  "title": "Grounding Sim-to-Real Generalization in Dexterous Manipulation: An Empirical Study with Vision-Language-Action Models",
+  "summary": "Learning a generalist control policy for dexterous manipulation typically relies on large-scale datasets. Given the high cost of real-world data collection, a practical alternative is to generate synthetic data through simulation. However, the resulting synthetic data often exhibits a significant gap from real-world distributions. While many prior studies have proposed algorithms to bridge the Sim-to-Real discrepancy, there remains a lack of principled research that grounds these methods in real-world manipulation tasks, particularly their performance on generalist policies such as Vision-Language-Action (VLA) models. In this study, we empirically examine the primary determinants of Sim-to-Real generalization across four dimensions: multi-level domain randomization, photorealistic rendering, physics-realistic modeling, and reinforcement learning updates. To support this study, we design a comprehensive evaluation protocol to quantify the real-world performance of manipulation tasks. The protocol accounts for key variations in background, lighting, distractors, object types, and spatial features. Through experiments involving over 10k real-world trials, we derive critical insights into Sim-to-Real transfer. To inform and advance future studies, we release both the robotic platforms and the evaluation protocol for public access to facilitate independent verification, thereby establishing a realistic and standardized benchmark for dexterous manipulation policies.",
+  "authors": [
+    "Ruixing Jin",
+    "Zicheng Zhu",
+    "Ruixiang Ouyang",
+    "Sheng Xu",
+    "Bo Yue",
+    "Zhizheng Wu",
+    "Guiliang Liu"
+  ],
+  "published": "2026-03-24T07:21:29Z",
+  "updated": "2026-03-24T07:21:29Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.22876v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.22876v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.026074+00:00"
+}

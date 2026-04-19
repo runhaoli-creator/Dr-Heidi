@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2603.18284",
+  "version": "2603.18284v1",
+  "title": "Offload or Overload: A Platform Measurement Study of Mobile Robotic Manipulation Workloads",
+  "summary": "Mobile robotic manipulation--the ability of robots to navigate spaces and interact with objects--is a core capability of physical AI. Foundation models have led to breakthroughs in their performance, but at a significant computational cost. We present the first measurement study of mobile robotic manipulation workloads across onboard, edge, and cloud GPU platforms. We find that the full workload stack is infeasible to run on smaller onboard GPUs, while larger onboard GPUs drain robot batteries several hours faster. Offloading alleviates these constraints but introduces its own challenges, as additional network latency degrades task accuracy, and the bandwidth requirement makes naive cloud offloading impractical. Finally, we quantify opportunities and pitfalls of sharing compute across robot fleets. We believe our measurement study will be crucial to designing inference systems for mobile robots.",
+  "authors": [
+    "Sara Pohland",
+    "Xenofon Foukas",
+    "Ganesh Ananthanarayanan",
+    "Andrey Kolobov",
+    "Sanjeev Mehrotra",
+    "Bozidar Radunovic",
+    "Ankit Verma"
+  ],
+  "published": "2026-03-18T21:05:40Z",
+  "updated": "2026-03-18T21:05:40Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.NI",
+    "eess.SY"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.18284v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.18284v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.114564+00:00"
+}

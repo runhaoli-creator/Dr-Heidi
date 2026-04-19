@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2604.02965",
+  "version": "2604.02965v1",
+  "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
+  "summary": "Vision-Language-Action (VLA) models, as large foundation models for embodied control, have shown strong performance in manipulation tasks. However, their performance comes at high inference cost. To improve efficiency, recent methods adopt action chunking, which predicts a sequence of future actions for open-loop execution. Although effective for reducing computation, open-loop execution is sensitive to environmental changes and prone to error accumulation due to the lack of close-loop feedback. To address this limitation, we propose Speculative Verification for VLA Control (SV-VLA), a framework that combines efficient open-loop long-horizon planning with lightweight closed-loop online verification. Specifically, SV-VLA uses a heavy VLA as a low-frequency macro-planner to generate an action chunk together with a planning context, while a lightweight verifier continuously monitors execution based on the latest observations. Conditioned on both the current observation and the planning context, the verifier compares the planned action against a closed-loop reference action and triggers replanning only when necessary. Experiments demonstrate that SV-VLA combines the efficiency of chunked prediction with the robustness of closed-loop control, enabling efficient and reliable VLA-based control in dynamic environments. Code is available: https://github.com/edsad122/SV-VLA.",
+  "authors": [
+    "Zihua Wang",
+    "Zhitao Lin",
+    "Ruibo Li",
+    "Yu Zhang",
+    "Xu Yang",
+    "Siya Mi",
+    "Xiu-Shen Wei"
+  ],
+  "published": "2026-04-03T10:55:51Z",
+  "updated": "2026-04-03T10:55:51Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CL"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.02965v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.02965v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.112030+00:00"
+}

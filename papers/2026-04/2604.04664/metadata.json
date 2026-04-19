@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2604.04664",
+  "version": "2604.04664v1",
+  "title": "ROSClaw: A Hierarchical Semantic-Physical Framework for Heterogeneous Multi-Agent Collaboration",
+  "summary": "The integration of large language models (LLMs) with embodied agents has improved high-level reasoning capabilities; however, a critical gap remains between semantic understanding and physical execution. While vision-language-action (VLA) and vision-language-navigation (VLN) systems enable robots to perform manipulation and navigation tasks from natural language instructions, they still struggle with long-horizon sequential and temporally structured tasks. Existing frameworks typically adopt modular pipelines for data collection, skill training, and policy deployment, resulting in high costs in experimental validation and policy optimization. To address these limitations, we propose ROSClaw, an agent framework for heterogeneous robots that integrates policy learning and task execution within a unified vision-language model (VLM) controller. The framework leverages e-URDF representations of heterogeneous robots as physical constraints to construct a sim-to-real topological mapping, enabling real-time access to the physical states of both simulated and real-world agents. We further incorporate a data collection and state accumulation mechanism that stores robot states, multimodal observations, and execution trajectories during real-world execution, enabling subsequent iterative policy optimization. During deployment, a unified agent maintains semantic continuity between reasoning and execution, and dynamically assigns task-specific control to different agents, thereby improving robustness in multi-policy execution. By establishing an autonomous closed-loop framework, ROSClaw minimizes the reliance on robot-specific development workflows. The framework supports hardware-level validation, automated generation of SDK-level control programs, and tool-based execution, enabling rapid cross-platform transfer and continual improvement of robotic skills. Ours project page: https://www.rosclaw.io/.",
+  "authors": [
+    "Rongfeng Zhao",
+    "Xuanhao Zhang",
+    "Zhaochen Guo",
+    "Xiang Shao",
+    "Zhongpan Zhu",
+    "Bin He",
+    "Jie Chen"
+  ],
+  "published": "2026-04-06T13:16:24Z",
+  "updated": "2026-04-06T13:16:24Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.MA"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.04664v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.04664v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.024618+00:00"
+}

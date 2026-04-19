@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2603.29090",
+  "version": "2603.29090v1",
+  "title": "HCLSM: Hierarchical Causal Latent State Machines for Object-Centric World Modeling",
+  "summary": "World models that predict future states from video remain limited by flat latent representations that entangle objects, ignore causal structure, and collapse temporal dynamics into a single scale. We present HCLSM, a world model architecture that operates on three interconnected principles: object-centric decomposition via slot attention with spatial broadcast decoding, hierarchical temporal dynamics through a three-level engine combining selective state space models for continuous physics, sparse transformers for discrete events, and compressed transformers for abstract goals, and causal structure learning through graph neural network interaction patterns. HCLSM introduces a two-stage training protocol where spatial reconstruction forces slot specialization before dynamics prediction begins. We train a 68M-parameter model on the PushT robotic manipulation benchmark from the Open X-Embodiment dataset, achieving 0.008 MSE next-state prediction loss with emerging spatial decomposition (SBD loss: 0.0075) and learned event boundaries. A custom Triton kernel for the SSM scan delivers 38x speedup over sequential PyTorch. The full system spans 8,478 lines of Python across 51 modules with 171 unit tests. Code: https://github.com/rightnow-ai/hclsm",
+  "authors": [
+    "Jaber Jaber",
+    "Osama Jaber"
+  ],
+  "published": "2026-03-31T00:11:29Z",
+  "updated": "2026-03-31T00:11:29Z",
+  "primary_category": "cs.LG",
+  "categories": [
+    "cs.LG",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.29090v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.29090v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-19T04:42:14.701050+00:00"
+}

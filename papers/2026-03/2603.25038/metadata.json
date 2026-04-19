@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2603.25038",
+  "version": "2603.25038v1",
+  "title": "$\u03c0$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation",
+  "summary": "Vision-Language-Action (VLA) models such as $\u03c0_0$ have demonstrated remarkable generalization across diverse fixed-base manipulators. However, transferring these foundation models to aerial platforms remains an open challenge due to the fundamental mismatch between the quasi-static dynamics of fixed-base arms and the underactuated, highly dynamic nature of flight. In this work, we introduce AirVLA, a system that investigates the transferability of manipulation-pretrained VLAs to aerial pick-and-place tasks. We find that while visual representations transfer effectively, the specific control dynamics required for flight do not. To bridge this \"dynamics gap\" without retraining the foundation model, we introduce a Payload-Aware Guidance mechanism that injects payload constraints directly into the policy's flow-matching sampling process. To overcome data scarcity, we further utilize a Gaussian Splatting pipeline to synthesize navigation training data. We evaluate our method through a cumulative 460 real-world experiments which demonstrate that this synthetic data is a key enabler of performance, unlocking 100% success in navigation tasks where directly fine-tuning on teleoperation data alone attains 81% success. Our inference-time intervention, Payload-Aware Guidance, increases real-world pick-and-place task success from 23% to 50%. Finally, we evaluate the model on a long-horizon compositional task, achieving a 62% overall success rate. These results suggest that pre-trained manipulation VLAs, with appropriate data augmentation and physics-informed guidance, can transfer to aerial manipulation and navigation, as well as the composition of these tasks.",
+  "authors": [
+    "Johnathan Tucker",
+    "Denis Liu",
+    "Aiden Swann",
+    "Allen Ren",
+    "Javier Yu",
+    "Jiankai Sun",
+    "Brandon Kim",
+    "Lachlain McGranahan",
+    "Quan Vuong",
+    "Mac Schwager"
+  ],
+  "published": "2026-03-26T05:19:54Z",
+  "updated": "2026-03-26T05:19:54Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.25038v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.25038v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.112756+00:00"
+}

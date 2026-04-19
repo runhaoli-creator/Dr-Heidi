@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2604.03208",
+  "version": "2604.03208v1",
+  "title": "Hierarchical Planning with Latent World Models",
+  "summary": "Model predictive control (MPC) with learned world models has emerged as a promising paradigm for embodied control, particularly for its ability to generalize zero-shot when deployed in new environments. However, learned world models often struggle with long-horizon control due to the accumulation of prediction errors and the exponentially growing search space. In this work, we address these challenges by learning latent world models at multiple temporal scales and performing hierarchical planning across these scales, enabling long-horizon reasoning while substantially reducing inference-time planning complexity. Our approach serves as a modular planning abstraction that applies across diverse latent world-model architectures and domains. We demonstrate that this hierarchical approach enables zero-shot control on real-world non-greedy robotic tasks, achieving a 70% success rate on pick-&-place using only a final goal specification, compared to 0% for a single-level world model. In addition, across physics-based simulated environments including push manipulation and maze navigation, hierarchical planning achieves higher success while requiring up to 4x less planning-time compute.",
+  "authors": [
+    "Wancong Zhang",
+    "Basile Terver",
+    "Artem Zholus",
+    "Soham Chitnis",
+    "Harsh Sutaria",
+    "Mido Assran",
+    "Randall Balestriero",
+    "Amir Bar",
+    "Adrien Bardes",
+    "Yann LeCun",
+    "Nicolas Ballas"
+  ],
+  "published": "2026-04-03T17:32:36Z",
+  "updated": "2026-04-03T17:32:36Z",
+  "primary_category": "cs.LG",
+  "categories": [
+    "cs.LG"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.03208v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.03208v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.914624+00:00"
+}

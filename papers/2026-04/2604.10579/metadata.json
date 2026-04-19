@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2604.10579",
+  "version": "2604.10579v1",
+  "title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Afford Correspondence",
+  "summary": "Despite the recent success of modern imitation learning methods in robot manipulation, their performance is often constrained by geometric variations due to limited data diversity. Leveraging powerful 3D generative models and vision foundation models (VFMs), the proposed AffordGen framework overcomes this limitation by utilizing the semantic correspondence of meaningful keypoints across large-scale 3D meshes to generate new robot manipulation trajectories. This large-scale, affordance-aware dataset is then used to train a robust, closed-loop visuomotor policy, combining the semantic generalizability of affordances with the reactive robustness of end-to-end learning. Experiments in simulation and the real world show that policies trained with AffordGen achieve high success rates and enable zero-shot generalization to truly unseen objects, significantly improving data efficiency in robot learning.",
+  "authors": [
+    "Jiawei Zhang",
+    "Kaizhe Hu",
+    "Yingqian Huang",
+    "Yuanchen Ju",
+    "Zhengrong Xue",
+    "Huazhe Xu"
+  ],
+  "published": "2026-04-12T10:56:31Z",
+  "updated": "2026-04-12T10:56:31Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.10579v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.10579v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.110043+00:00"
+}

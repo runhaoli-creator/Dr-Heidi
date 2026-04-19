@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2602.19260",
+  "version": "2602.19260v1",
+  "title": "The Price Is Not Right: Neuro-Symbolic Methods Outperform VLAs on Structured Long-Horizon Manipulation Tasks with Significantly Lower Energy Consumption",
+  "summary": "Vision-Language-Action (VLA) models have recently been proposed as a pathway toward generalist robotic policies capable of interpreting natural language and visual inputs to generate manipulation actions. However, their effectiveness and efficiency on structured, long-horizon manipulation tasks remain unclear. In this work, we present a head-to-head empirical comparison between a fine-tuned open-weight VLA model \u03c00 and a neuro-symbolic architecture that combines PDDL-based symbolic planning with learned low-level control. We evaluate both approaches on structured variants of the Towers of Hanoi manipulation task in simulation while measuring both task performance and energy consumption during training and execution. On the 3-block task, the neuro-symbolic model achieves 95% success compared to 34% for the best-performing VLA. The neuro-symbolic model also generalizes to an unseen 4-block variant (78% success), whereas both VLAs fail to complete the task. During training, VLA fine-tuning consumes nearly two orders of magnitude more energy than the neuro-symbolic approach. These results highlight important trade-offs between end-to-end foundation-model approaches and structured reasoning architectures for long-horizon robotic manipulation, emphasizing the role of explicit symbolic structure in improving reliability, data efficiency, and energy efficiency. Code and models are available at https://price-is-not-right.github.io",
+  "authors": [
+    "Timothy Duggan",
+    "Pierrick Lorang",
+    "Hong Lu",
+    "Matthias Scheutz"
+  ],
+  "published": "2026-02-22T16:22:06Z",
+  "updated": "2026-02-22T16:22:06Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2602.19260v1",
+  "pdf_url": "https://arxiv.org/pdf/2602.19260v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-19T04:42:22.296534+00:00"
+}

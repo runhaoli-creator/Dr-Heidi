@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2604.02580",
+  "version": "2604.02580v1",
+  "title": "VoxelCodeBench: Benchmarking 3D World Modeling Through Code Generation",
+  "summary": "Evaluating code generation models for 3D spatial reasoning requires executing generated code in realistic environments and assessing outputs beyond surface-level correctness. We introduce a platform VoxelCode, for analyzing code generation capabilities for 3D understanding and environment creation. Our platform integrates natural language task specification, API-driven code execution in Unreal Engine, and a unified evaluation pipeline supporting both automated metrics and human assessment. To demonstrate its utility, we construct VoxelCodeBench, a benchmark of voxel manipulation tasks spanning three reasoning dimensions: symbolic interpretation, geometric construction, and artistic composition. Evaluating leading code generation models, we find that producing executable code is far easier than producing spatially correct outputs, with geometric construction and multi-object composition proving particularly challenging. By open-sourcing our platform and benchmark, we provide the community with extensible infrastructure for developing new 3D code generation benchmarks and probing spatial reasoning in future models.",
+  "authors": [
+    "Yan Zheng",
+    "Florian Bordes"
+  ],
+  "published": "2026-04-02T23:33:58Z",
+  "updated": "2026-04-02T23:33:58Z",
+  "primary_category": "cs.LG",
+  "categories": [
+    "cs.LG"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.02580v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.02580v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.915135+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2603.29409",
+  "version": "2603.29409v1",
+  "title": "CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics",
+  "summary": "Robotic manipulation involves kinematic and semantic transitions that are inherently coupled via underlying actions. However, existing approaches plan within either semantic or latent space without explicitly aligning these cross-modal transitions. To address this, we propose CLaD, a framework that models how proprioceptive and semantic states jointly evolve under actions through asymmetric cross-attention that allows kinematic transitions to query semantic ones. CLaD predicts grounded latent foresights via self-supervised objectives with EMA target encoders and auxiliary reconstruction losses, preventing representation collapse while anchoring predictions to observable states. Predicted foresights are modulated with observations to condition a diffusion policy for action generation. On LIBERO-LONG benchmark, CLaD achieves 94.7\\% success rate, competitive with large VLAs with significantly fewer parameters.",
+  "authors": [
+    "Andrew Jeong",
+    "Jaemin Kim",
+    "Sebin Lee",
+    "Sung-Eui Yoon"
+  ],
+  "published": "2026-03-31T08:13:45Z",
+  "updated": "2026-03-31T08:13:45Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.29409v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.29409v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-19T04:42:14.700754+00:00"
+}

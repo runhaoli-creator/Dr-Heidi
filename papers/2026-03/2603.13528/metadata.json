@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2603.13528",
+  "version": "2603.13528v1",
+  "title": "Learning Actionable Manipulation Recovery via Counterfactual Failure Synthesis",
+  "summary": "While recent foundation models have significantly advanced robotic manipulation, these systems still struggle to autonomously recover from execution errors. Current failure-learning paradigms rely on either costly and unsafe real-world data collection or simulator-based perturbations, which introduce a severe sim-to-real gap. Furthermore, existing visual analyzers predominantly output coarse, binary diagnoses rather than the executable, trajectory-level corrections required for actual recovery. To bridge the gap between failure diagnosis and actionable recovery, we introduce Dream2Fix, a framework that synthesizes photorealistic, counterfactual failure rollouts directly from successful real-world demonstrations. By perturbing actions within a generative world model, Dream2Fix creates paired failure-correction data without relying on simulators. To ensure the generated data is physically viable for robot learning, we implement a structured verification mechanism that strictly filters rollouts for task validity, visual coherence, and kinematic safety. This engine produces a high-fidelity dataset of over 120k paired samples. Using this dataset, we fine-tune a vision-language model to jointly predict failure types and precise recovery trajectories, mapping visual anomalies directly to corrective actions. Extensive real-world robotic experiments show our approach achieves state-of-the-art correction accuracy, improving from 19.7% to 81.3% over prior baselines, and successfully enables zero-shot closed-loop failure recovery in physical deployments.",
+  "authors": [
+    "Dayou Li",
+    "Jiuzhou Lei",
+    "Hao Wang",
+    "Lulin Liu",
+    "Yunhao Yang",
+    "Zihan Wang",
+    "Bangya Liu",
+    "Minghui Zheng",
+    "Zhiwen Fan"
+  ],
+  "published": "2026-03-13T19:02:58Z",
+  "updated": "2026-03-13T19:02:58Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.13528v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.13528v1",
+  "matched_groups": [
+    "embodied_foundation",
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-19T04:42:18.405795+00:00"
+}

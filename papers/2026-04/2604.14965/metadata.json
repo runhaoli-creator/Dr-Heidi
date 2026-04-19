@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2604.14965",
+  "version": "2604.14965v1",
+  "title": "POMDP-based Object Search with Growing State Space and Hybrid Action Domain",
+  "summary": "Efficiently locating target objects in complex indoor environments with diverse furniture, such as shelves, tables, and beds, is a significant challenge for mobile robots. This difficulty arises from factors like localization errors, limited fields of view, and visual occlusion. We address this by framing the object-search task as a highdimensional Partially Observable Markov Decision Process (POMDP) with a growing state space and hybrid (continuous and discrete) action spaces in 3D environments. Based on a meticulously designed perception module, a novel online POMDP solver named the growing neural process filtered k-center clustering tree (GNPF-kCT) is proposed to tackle this problem. Optimal actions are selected using Monte Carlo Tree Search (MCTS) with belief tree reuse for growing state space, a neural process network to filter useless primitive actions, and k-center clustering hypersphere discretization for efficient refinement of high-dimensional action spaces. A modified upper-confidence bound (UCB), informed by belief differences and action value functions within cells of estimated diameters, guides MCTS expansion. Theoretical analysis validates the convergence and performance potential of our method. To address scenarios with limited information or rewards, we also introduce a guessed target object with a grid-world model as a key strategy to enhance search efficiency. Extensive Gazebo simulations with Fetch and Stretch robots demonstrate faster and more reliable target localization than POMDP-based baselines and state-of-the-art (SOTA) non-POMDP-based solvers, especially large language model (LLM) based methods, in object search under the same computational constraints and perception systems. Real-world tests in office environments confirm the practical applicability of our approach. Project page: https://sites.google.com/view/gnpfkct.",
+  "authors": [
+    "Yongbo Chen",
+    "Hesheng Wang",
+    "Shoudong Huang",
+    "Hanna Kurniawati"
+  ],
+  "published": "2026-04-16T13:01:13Z",
+  "updated": "2026-04-16T13:01:13Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.14965v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.14965v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.909613+00:00"
+}

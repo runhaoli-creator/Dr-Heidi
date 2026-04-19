@@ -1,0 +1,34 @@
+{
+  "arxiv_id": "2603.16195",
+  "version": "2603.16195v2",
+  "title": "S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight",
+  "summary": "Video action models (VAMs) have emerged as a promising paradigm for robot learning, owing to their powerful visual foresight for complex manipulation tasks. However, current VAMs, typically relying on either slow multi-step video generation or noisy one-step feature extraction, cannot simultaneously guarantee real-time inference and high-fidelity foresight. To address this limitation, we propose S-VAM, a shortcut video-action model that foresees coherent geometric and semantic representations via a single forward pass. Serving as a stable blueprint, these foreseen representations significantly simplify the action prediction. To enable this efficient shortcut, we introduce a novel self-distillation strategy that condenses structured generative priors of multi-step denoising into one-step inference. Specifically, vision foundation model (VFM) representations extracted from the diffusion model's own multi-step generated videos provide teacher targets. Lightweight decouplers, as students, learn to directly map noisy one-step features to these targets. Extensive experiments in simulation and the real world demonstrate that our S-VAM outperforms state-of-the-art methods, enabling efficient and precise manipulation in complex environments. Our project page is https://haodong-yan.github.io/S-VAM/",
+  "authors": [
+    "Haodong Yan",
+    "Zhide Zhong",
+    "Jiaguan Zhu",
+    "Junjie He",
+    "Weilin Yuan",
+    "Wenxuan Song",
+    "Xin Gong",
+    "Yingjie Cai",
+    "Guanyi Zhao",
+    "Xu Yan",
+    "Bingbing Liu",
+    "Ying-Cong Chen",
+    "Haoang Li"
+  ],
+  "published": "2026-03-17T07:21:28Z",
+  "updated": "2026-03-18T05:40:46Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.16195v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.16195v2",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-19T04:42:18.404434+00:00"
+}

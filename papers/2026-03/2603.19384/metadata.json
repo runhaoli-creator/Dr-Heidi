@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2603.19384",
+  "version": "2603.19384v1",
+  "title": "SOFTMAP: Sim2Real Soft Robot Forward Modeling via Topological Mesh Alignment and Physics Prior",
+  "summary": "While soft robot manipulators offer compelling advantages over rigid counterparts, including inherent compliance, safe human-robot interaction, and the ability to conform to complex geometries, accurate forward modeling from low-dimensional actuation commands remains an open challenge due to nonlinear material phenomena such as hysteresis and manufacturing variability. We present SOFTMAP, a sim-to-real learning framework for real-time 3D forward modeling of tendon-actuated soft finger manipulators. SOFTMAP combines four components: (1) As-Rigid-As-Possible (ARAP)-based topological alignment that projects simulated and real point clouds into a shared, topologically consistent vertex space; (2) a lightweight MLP forward model pretrained on simulation data to map servo commands to full 3D finger geometry; (3) a residual correction network trained on a small set of real observations to predict per-vertex displacement fields that compensate for sim-to-real discrepancies; and (4) a closed-form linear actuation calibration layer enabling real-time inference at 30 FPS. We evaluate SOFTMAP on both simulated and physical hardware, achieving state-of-the-art shape prediction accuracy with a Chamfer distance of 0.389 mm in simulation and 3.786 mm on hardware, millimeter-level fingertip trajectory tracking across multiple target paths, and a 36.5% improvement in teleoperation task success over the baseline. Our results show that SOFTMAP provides a data-efficient approach for 3D forward modeling and control of soft manipulators.",
+  "authors": [
+    "Ziyong Ma",
+    "Uksang Yoo",
+    "Jonathan Francis",
+    "Weiming Zhi",
+    "Jeffrey Ichnowski",
+    "Jean Oh"
+  ],
+  "published": "2026-03-19T18:21:44Z",
+  "updated": "2026-03-19T18:21:44Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.19384v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.19384v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.026886+00:00"
+}

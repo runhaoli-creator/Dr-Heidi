@@ -1,0 +1,35 @@
+{
+  "arxiv_id": "2604.09330",
+  "version": "2604.09330v1",
+  "title": "VAG: Dual-Stream Video-Action Generation for Embodied Data Synthesis",
+  "summary": "Recent advances in robot foundation models trained on large-scale human teleoperation data have enabled robots to perform increasingly complex real-world tasks. However, scaling these systems remains difficult because collecting task-specific demonstrations is expensive and labor-intensive. Synthetic data, especially generated videos, offer a promising direction, but existing World Models (WMs) are not directly suitable for policy learning since they do not provide paired action trajectories. World-Action (WA) models partially address this by predicting actions with visual outputs, yet often lack strong video-action alignment, while two-stage pipelines that generate video first and then infer actions introduce inefficiency and error accumulation. To address these limitations, we propose VAG, a unified flow-matching-based dual-stream framework that jointly generates video and action under visual and language conditioning. By synchronizing denoising in both branches and using an adaptive 3D pooling mechanism to transfer compact global video context to the action branch, VAG improves cross-modal consistency during generation. Across both simulated and real-world settings, VAG produces aligned video-action pairs with competitive prediction quality, supports executable trajectory replay, and provides useful synthetic pretraining data that improves downstream policy generalization, indicating its potential as a practical world-action model for embodied data synthesis.",
+  "authors": [
+    "Xiaolei Lang",
+    "Yang Wang",
+    "Yukun Zhou",
+    "Chaojun Ni",
+    "Kerui Li",
+    "Jiagang Zhu",
+    "Tianze Liu",
+    "Jiajun Lv",
+    "Xingxing Zuo",
+    "Yun Ye",
+    "Guan Huang",
+    "Xiaofeng Wang",
+    "Zheng Zhu"
+  ],
+  "published": "2026-04-10T13:59:54Z",
+  "updated": "2026-04-10T13:59:54Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.09330v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09330v1",
+  "matched_groups": [
+    "embodied_foundation",
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.912475+00:00"
+}

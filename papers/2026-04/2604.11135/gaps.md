@@ -1,0 +1,12 @@
+# Gaps
+
+- Value-map annotation assumes simulator contact APIs and stable-placement detection; untested when labels must come from real-world video (no contact geometry) — can self-supervised or vision-foundation-model derived affordance labels substitute without losing the "control-oriented" property?
+- Affordance taxonomy is limited to grasp-contact and placement-contact heatmaps; unclear how to define ASVMs for non-prehensile pushing, articulated-joint manipulation (hinges, sliders), tool use, rope/cloth, or bi-manual coordination where the "interaction region" is not a single contact patch.
+- Intent-causal mask is asserted but not ablated in the excerpt: does forbidding action→future-RGB attention actually help vs. just adding the value-map auxiliary loss? A controlled ablation (value-map loss only; value-map loss + open attention; full mask) would isolate the contribution.
+- Self-distillation RL adds only +1.0 / +0.1 SR over Stage1 — is GRPO with a frozen value head under-exploiting the dense reward, or has supervised training already saturated the 30K RoboTwin distribution? Test on harder/rarer tasks or with smaller Stage1 data budgets.
+- Performance on low-SR tasks (Hanging Mug ~43%, Blocks Ranking Size ~45%) is essentially unchanged vs. baselines — the spatial-intent bridge does not fix failures dominated by precise geometric insertion or combinatorial reasoning; what representation augments ASVMs for these?
+- All evaluation is sim-only on RoboTwin 2.0 with the same 30K training set; cross-embodiment, cross-benchmark (LIBERO, CALVIN, real hardware) generalization of the value-map interface is untested.
+- Dense reward `r_t = M_t(Π(p_t))` uses the model's own frozen value map — risk of reward hacking if the value head is biased; no analysis of divergence between predicted and ground-truth interaction regions over RL updates.
+- Computational cost (video-gen backbone + triple-stream denoising + KV-cached rollout) is not reported; feasibility for >10Hz closed-loop real-robot control is unclear and may bottleneck the method.
+- Horizon `h` of future prediction and its effect on SR / latency is not studied — is the value-map advantage monotonic in horizon, or does it degrade like raw RGB prediction?
+- Language grounding enters only through the video branch via T5 cross-attention; whether the value map correctly localizes instruction-conditioned regions under compositional / novel-verb instructions (vs. in-distribution RoboTwin templates) is not probed.

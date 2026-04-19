@@ -1,0 +1,36 @@
+{
+  "arxiv_id": "2603.14686",
+  "version": "2603.14686v1",
+  "title": "MVHOI: Bridge Multi-view Condition to Complex Human-Object Interaction Video Reenactment via 3D Foundation Model",
+  "summary": "Human-Object Interaction (HOI) video reenactment with realistic motion remains a frontier in expressive digital human creation. Existing approaches primarily handle simple image-plane motion (e.g., in-plane translations), struggling with complex non-planar manipulations like out-of-plane reorientation. In this paper, we propose MVHOI, a two-stage HOI video reenactment framework that bridges multi-view reference conditions and video foundation models via a 3D Foundation Model (3DFM). The 3DFM first produces view-consistent object priors conditioned on implicit motion dynamics across novel viewpoints. A controllable video generation model then synthesizes high-fidelity object texture by incorporating multi-view reference images, ensuring appearance consistency via a reasonable retrieval mechanism. By enabling these two stages to mutually reinforce one another during the inference phase, our framework shows superior performance in generating long-duration HOI videos with intricate object manipulations. Extensive experiments show substantial improvements over prior approaches, especially for HOI with complex 3D object manipulations.",
+  "authors": [
+    "Jinguang Tong",
+    "Jinbo Wu",
+    "Kaisiyuan Wang",
+    "Zhelun Shen",
+    "Xuan Huang",
+    "Mochu Xiang",
+    "Xuesong Li",
+    "Yingying Li",
+    "Haocheng Feng",
+    "Chen Zhao",
+    "Hang Zhou",
+    "Wei He",
+    "Chuong Nguyen",
+    "Jingdong Wang",
+    "Hongdong Li"
+  ],
+  "published": "2026-03-16T00:43:38Z",
+  "updated": "2026-03-16T00:43:38Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.14686v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.14686v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-19T04:42:18.405266+00:00"
+}

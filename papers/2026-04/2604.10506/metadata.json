@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2604.10506",
+  "version": "2604.10506v1",
+  "title": "A Progressive Training Strategy for Vision-Language Models to Counteract Spatio-Temporal Hallucinations in Embodied Reasoning",
+  "summary": "Vision-Language Models (VLMs) have made significant strides in static image understanding but continue to face critical hurdles in spatiotemporal reasoning. A major bottleneck is \"multi-image reasoning hallucination\", where a massive performance drop between forward and reverse temporal queries reveals a dependence on superficial shortcuts instead of genuine causal understanding. To mitigate this, we first develop a new Chain-of-Thought (CoT) dataset that decomposes intricate reasoning into detailed spatiotemporal steps and definitive judgments. Building on this, we present a progressive training framework: it initiates with supervised pre-training on our CoT dataset to instill logical structures, followed by fine-tuning with scalable weakly-labeled data for broader generalization. Our experiments demonstrate that this approach not only improves backbone accuracy but also slashes the forward-backward performance gap from over 70\\% to only 6.53\\%. This confirms the method's ability to develop authentic dynamic reasoning and reduce the inherent temporal biases of current VLMs.",
+  "authors": [
+    "Xiaoda Yang",
+    "Shuai Yang",
+    "Can Wang",
+    "Jingyang Xue",
+    "Menglan Tang",
+    "Checheng Yu",
+    "Xunzhe Zhou",
+    "Sashuai Zhou",
+    "Tao Jin",
+    "Lixin Yang",
+    "Xiangyu Yue",
+    "Zhou Zhao"
+  ],
+  "published": "2026-04-12T07:48:44Z",
+  "updated": "2026-04-12T07:48:44Z",
+  "primary_category": "cs.AI",
+  "categories": [
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.10506v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.10506v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.606983+00:00"
+}

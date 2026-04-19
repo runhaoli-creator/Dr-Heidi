@@ -1,0 +1,46 @@
+{
+  "arxiv_id": "2603.16861",
+  "version": "2603.16861v2",
+  "title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+  "summary": "A prevailing view in robot learning is that simulation alone is not enough; effective sim-to-real transfer is widely believed to require at least some real-world data collection or task-specific fine-tuning to bridge the gap between simulated and physical environments. We challenge that assumption. With sufficiently large-scale and diverse simulated synthetic training data, we show that zero-shot transfer to the real world is not only possible, but effective for both static and mobile manipulation. We introduce MolmoBot-Engine, a fully open-source pipeline for procedural data generation across robots, tasks, and diverse simulated environments in MolmoSpaces. With it, we release MolmoBot-Data, a dataset of 1.8 million expert trajectories for articulated object manipulation and pick-and-place tasks. We train three policy classes: MolmoBot, a Molmo2-based multi-frame vision-language model with a flow-matching action head; MolmoBot-Pi0, which replicates the $\u03c0_0$ architecture to enable direct comparison; and MolmoBot-SPOC, a lightweight policy suitable for edge deployment and amenable to RL fine-tuning. We evaluate on two robotic platforms: the Franka FR3 for tabletop manipulation tasks and the Rainbow Robotics RB-Y1 mobile manipulator for door opening, drawer manipulation, cabinet interaction, and mobile pick-and-place. Without any real-world fine-tuning, our policies achieve zero-shot transfer to unseen objects and environments. On tabletop pick-and-place, MolmoBot achieves a success rate of 79.2% in real world evaluations across 4 settings, outperforming $\u03c0_{0.5}$ at 39.2%. Our results demonstrate that procedural environment generation combined with diverse articulated assets can produce robust manipulation policies that generalize broadly to the real world. Technical website: https://allenai.github.io/MolmoBot",
+  "authors": [
+    "Abhay Deshpande",
+    "Maya Guru",
+    "Rose Hendrix",
+    "Snehal Jauhri",
+    "Ainaz Eftekhar",
+    "Rohun Tripathi",
+    "Max Argus",
+    "Jordi Salvador",
+    "Haoquan Fang",
+    "Matthew Wallingford",
+    "Wilbert Pumacay",
+    "Yejin Kim",
+    "Quinn Pfeifer",
+    "Ying-Chun Lee",
+    "Piper Wolters",
+    "Omar Rayyan",
+    "Mingtong Zhang",
+    "Jiafei Duan",
+    "Karen Farley",
+    "Winson Han",
+    "Eli Vanderbilt",
+    "Dieter Fox",
+    "Ali Farhadi",
+    "Georgia Chalvatzaki",
+    "Dhruv Shah",
+    "Ranjay Krishna"
+  ],
+  "published": "2026-03-17T17:59:03Z",
+  "updated": "2026-03-26T17:59:03Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.16861v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.16861v2",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-19T04:42:26.450640+00:00"
+}

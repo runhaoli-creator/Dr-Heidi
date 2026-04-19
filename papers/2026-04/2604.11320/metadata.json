@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2604.11320",
+  "version": "2604.11320v1",
+  "title": "CLASP: Closed-loop Asynchronous Spatial Perception for Open-vocabulary Desktop Object Grasping",
+  "summary": "Robot grasping of desktop object is widely used in intelligent manufacturing, logistics, and agriculture.Although vision-language models (VLMs) show strong potential for robotic manipulation, their deployment in low-level grasping faces key challenges: scarce high-quality multimodal demonstrations, spatial hallucination caused by weak geometric grounding, and the fragility of open-loop execution in dynamic environments. To address these challenges, we propose Closed-Loop Asynchronous Spatial Perception(CLASP), a novel asynchronous closed-loop framework that integrates multimodal perception, logical reasoning, and state-reflective feedback. First, we design a Dual-Pathway Hierarchical Perception module that decouples high-level semantic intent from geometric grounding. The design guides the output of the inference model and the definite action tuples, reducing spatial illusions. Second, an Asynchronous Closed-Loop Evaluator is implemented to compare pre- and post-execution states, providing text-based diagnostic feedback to establish a robust error-correction loop and improving the vulnerability of traditional open-loop execution in dynamic environments. Finally, we design a scalable multi-modal data engine that automatically synthesizes high-quality spatial annotations and reasoning templates from real and synthetic scenes without human teleoperation. Extensive experiments demonstrate that our approach significantly outperforms existing baselines, achieving an 87.0% overall success rate. Notably, the proposed framework exhibits remarkable generalization across diverse objects, bridging the sim-to-real gap and providing exceptional robustness in geometrically challenging categories and cluttered scenarios.",
+  "authors": [
+    "Yiran Ling",
+    "Wenxuan Li",
+    "Siying Dong",
+    "Yize Zhang",
+    "Xiaoyao Huang",
+    "Jing Jiang",
+    "Ruonan Li",
+    "Jie Liu"
+  ],
+  "published": "2026-04-13T11:22:37Z",
+  "updated": "2026-04-13T11:22:37Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11320v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11320v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.023046+00:00"
+}

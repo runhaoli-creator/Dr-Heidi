@@ -1,0 +1,34 @@
+{
+  "arxiv_id": "2603.15956",
+  "version": "2603.15956v1",
+  "title": "ExpertGen: Scalable Sim-to-Real Expert Policy Learning from Imperfect Behavior Priors",
+  "summary": "Learning generalizable and robust behavior cloning policies requires large volumes of high-quality robotics data. While human demonstrations (e.g., through teleoperation) serve as the standard source for expert behaviors, acquiring such data at scale in the real world is prohibitively expensive. This paper introduces ExpertGen, a framework that automates expert policy learning in simulation to enable scalable sim-to-real transfer. ExpertGen first initializes a behavior prior using a diffusion policy trained on imperfect demonstrations, which may be synthesized by large language models or provided by humans. Reinforcement learning is then used to steer this prior toward high task success by optimizing the diffusion model's initial noise while keep original policy frozen. By keeping the pretrained diffusion policy frozen, ExpertGen regularizes exploration to remain within safe, human-like behavior manifolds, while also enabling effective learning with only sparse rewards. Empirical evaluations on challenging manipulation benchmarks demonstrate that ExpertGen reliably produces high-quality expert policies with no reward engineering. On industrial assembly tasks, ExpertGen achieves a 90.5% overall success rate, while on long-horizon manipulation tasks it attains 85% overall success, outperforming all baseline methods. The resulting policies exhibit dexterous control and remain robust across diverse initial configurations and failure states. To validate sim-to-real transfer, the learned state-based expert policies are further distilled into visuomotor policies via DAgger and successfully deployed on real robotic hardware.",
+  "authors": [
+    "Zifan Xu",
+    "Ran Gong",
+    "Maria Vittoria Minniti",
+    "Ahmet Salih Gundogdu",
+    "Eric Rosen",
+    "Kausik Sivakumar",
+    "Riedana Yan",
+    "Zixing Wang",
+    "Di Deng",
+    "Peter Stone",
+    "Xiaohan Zhang",
+    "Karl Schmeckpeper"
+  ],
+  "published": "2026-03-16T22:12:48Z",
+  "updated": "2026-03-16T22:12:48Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.15956v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.15956v1",
+  "matched_groups": [
+    "long_horizon",
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.609796+00:00"
+}

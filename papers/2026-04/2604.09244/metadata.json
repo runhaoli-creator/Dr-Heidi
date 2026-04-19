@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2604.09244",
+  "version": "2604.09244v1",
+  "title": "2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness",
+  "summary": "Vision-Language-Action (VLA) models have emerged as the mainstream of embodied intelligence. Recent VLA models have expanded their input modalities from 2D-only to 2D+3D paradigms, forming multi-visual-modal VLA (MVLA) models. Despite achieving improved spatial perception, MVLA faces a greater acceleration demand due to the increased number of input tokens caused by modal expansion. Token pruning is an effective optimization methods tailored to MVLA models. However, existing token pruning schemes are designed for 2D-only VLA models, ignoring 2D/3D modality salience differences. In this paper, we follow the application process of multi-modal data in MVLA models and develop a tri-stage analysis to capture the discrepancy and dynamics of 2D/3D modality salience. Based on these, we propose a corresponding tri-stage token pruning framework for MVLA models to achieve optimal 2D/3D token selection and efficient pruning. Experiments show that our framework achieves up to a 2.55x inference speedup with minimal accuracy loss, while only costing 5.8% overhead. Our Code is coming soon.",
+  "authors": [
+    "Zihao Zheng",
+    "Sicheng Tian",
+    "Zhihao Mao",
+    "Lingyue Zhang",
+    "Chenyue Li",
+    "Ziyun Zhang",
+    "Hong Gao",
+    "Yuchen Huang",
+    "Yutong Xu",
+    "Guojie Luo",
+    "Xiang Chen"
+  ],
+  "published": "2026-04-10T11:58:39Z",
+  "updated": "2026-04-10T11:58:39Z",
+  "primary_category": "cs.MM",
+  "categories": [
+    "cs.MM",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.09244v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09244v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-19T04:42:10.410137+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2604.09100",
+  "version": "2604.09100v1",
+  "title": "Physically Grounded 3D Generative Reconstruction under Hand Occlusion using Proprioception and Multi-Contact Touch",
+  "summary": "We propose a multimodal, physically grounded approach for metric-scale amodal object reconstruction and pose estimation under severe hand occlusion. Unlike prior occlusion-aware 3D generation methods that rely only on vision, we leverage physical interaction signals: proprioception provides the posed hand geometry, and multi-contact touch constrains where the object surface must lie, reducing ambiguity in occluded regions. We represent object structure as a pose-aware, camera-aligned signed distance field (SDF) and learn a compact latent space with a Structure-VAE. In this latent space, we train a conditional flow-matching diffusion model, pretraining on vision-only images and finetuning on occluded manipulation scenes while conditioning on visible RGB evidence, occluder/visibility masks, the hand latent representation, and tactile information. Crucially, we incorporate physics-based objectives and differentiable decoder-guidance during finetuning and inference to reduce hand--object interpenetration and to align the reconstructed surface with contact observations. Because our method produces a metric, physically consistent structure estimate, it integrates naturally into existing two-stage reconstruction pipelines, where a downstream module refines geometry and predicts appearance. Experiments in simulation show that adding proprioception and touch substantially improves completion under occlusion and yields physically plausible reconstructions at correct real-world scale compared to vision-only baselines; we further validate transfer by deploying the model on a real humanoid robot with an end-effector different from those used during training.",
+  "authors": [
+    "Gabriele Mario Caddeo",
+    "Pasquale Marra",
+    "Lorenzo Natale"
+  ],
+  "published": "2026-04-10T08:32:51Z",
+  "updated": "2026-04-10T08:32:51Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.09100v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09100v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.023543+00:00"
+}

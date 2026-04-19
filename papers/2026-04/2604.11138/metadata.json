@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2604.11138",
+  "version": "2604.11138v1",
+  "title": "ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation",
+  "summary": "In-hand object reorientation requires precise estimation of the object pose to handle complex task dynamics. While RGB sensing offers rich semantic cues for pose tracking, existing solutions rely on multi-camera setups or costly ray tracing. We present a sim-to-real framework for monocular RGB in-hand reorientation that integrates 3D Gaussian Splatting (3DGS) to bridge the visual sim-to-real gap. Our key insight is performing domain randomization in the Gaussian representation space: by applying physically consistent, pre-rendering augmentations to 3D Gaussians, we generate photorealistic, randomized visual data for object pose estimation. The manipulation policy is trained using curriculum-based reinforcement learning with teacher-student distillation, enabling efficient learning of complex behaviors. Importantly, both perception and control models can be trained independently on consumer-grade hardware, eliminating the need for large compute clusters. Experiments show that the pose estimator trained with 3DGS data outperforms those trained using conventional rendering data in challenging visual environments. We validate the system on a physical multi-fingered hand equipped with an RGB camera, demonstrating robust reorientation of five diverse objects even under challenging lighting conditions. Our results highlight Gaussian splatting as a practical path for RGB-only dexterous manipulation. For videos of the hardware deployments and additional supplementary materials, please refer to the project website: https://rffr.leggedrobotics.com/works/viserdex/",
+  "authors": [
+    "Arjun Bhardwaj",
+    "Maximum Wilder-Smith",
+    "Mayank Mittal",
+    "Vaishakh Patil",
+    "Marco Hutter"
+  ],
+  "published": "2026-04-13T07:50:41Z",
+  "updated": "2026-04-13T07:50:41Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11138v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11138v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.023292+00:00"
+}

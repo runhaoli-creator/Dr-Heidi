@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2604.11757",
+  "version": "2604.11757v1",
+  "title": "StarVLA-$\u03b1$: Reducing Complexity in Vision-Language-Action Systems",
+  "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for building general-purpose robotic agents. However, the VLA landscape remains highly fragmented and complex: as existing approaches vary substantially in architectures, training data, embodiment configurations, and benchmark-specific engineering. In this work, we introduce StarVLA-$\u03b1$, a simple yet strong baseline designed to study VLA design choices under controlled conditions. StarVLA-$\u03b1$ deliberately minimizes architectural and pipeline complexity to reduce experimental confounders and enable systematic analysis. Specifically, we re-evaluate several key design axes, including action modeling strategies, robot-specific pretraining, and interface engineering. Across unified multi-benchmark training on LIBERO, SimplerEnv, RoboTwin, and RoboCasa, the same simple baseline remains highly competitive, indicating that a strong VLM backbone combined with minimal design is already sufficient to achieve strong performance without relying on additional architectural complexity or engineering tricks. Notably, our single generalist model outperforms $\u03c0_{0.5}$ by 20\\% on the public real-world RoboChallenge benchmark. We expect StarVLA-$\u03b1$ to serve as a solid starting point for future research in the VLA regime. Code will be released at https://github.com/starVLA/starVLA.",
+  "authors": [
+    "Jinhui Ye",
+    "Ning Gao",
+    "Senqiao Yang",
+    "Jinliang Zheng",
+    "Zixuan Wang",
+    "Yuxin Chen",
+    "Pengguang Chen",
+    "Yilun Chen",
+    "Shu Liu",
+    "Jiaya Jia"
+  ],
+  "published": "2026-04-13T17:30:01Z",
+  "updated": "2026-04-13T17:30:01Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11757v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11757v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-18T22:59:37.446218+00:00"
+}

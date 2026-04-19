@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2603.05291",
+  "version": "2603.05291v1",
+  "title": "Iterative On-Policy Refinement of Hierarchical Diffusion Policies for Language-Conditioned Manipulation",
+  "summary": "Hierarchical policies for language-conditioned manipulation decompose tasks into subgoals, where a high-level planner guides a low-level controller. However, these hierarchical agents often fail because the planner generates subgoals without considering the actual limitations of the controller. Existing solutions attempt to bridge this gap via intermediate modules or shared representations, but they remain limited by their reliance on fixed offline datasets. We propose HD-ExpIt, a framework for iterative fine-tuning of hierarchical diffusion policies via environment feedback. HD-ExpIt organizes training into a self-reinforcing cycle: it utilizes diffusion-based planning to autonomously discover successful behaviors, which are then distilled back into the hierarchical policy. This loop enables both components to improve while implicitly grounding the planner in the controller's actual capabilities without requiring explicit proxy models. Empirically, HD-ExpIt significantly improves hierarchical policies trained solely on offline data, achieving state-of-the-art performance on the long-horizon CALVIN benchmark among methods trained from scratch.",
+  "authors": [
+    "Clemence Grislain",
+    "Olivier Sigaud",
+    "Mohamed Chetouani"
+  ],
+  "published": "2026-03-05T15:34:43Z",
+  "updated": "2026-03-05T15:34:43Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.05291v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.05291v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.611563+00:00"
+}

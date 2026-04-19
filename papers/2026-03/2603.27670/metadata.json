@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2603.27670",
+  "version": "2603.27670v1",
+  "title": "ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation",
+  "summary": "Most existing vision-language-action (VLA) models for robotic manipulation lack progress awareness, typically relying on hand-crafted heuristics for task termination. This limitation is particularly severe in long-horizon tasks involving cascaded sub-goals. In this work, we investigate the estimation and integration of task progress, proposing a novel model named {\\textbf \\vla}. Our technical contributions are twofold: (1) \\emph{robust progress estimation}: We pre-train a progress estimator on large-scale, unsupervised video-text robotic datasets. This estimator achieves a low prediction residual (0.07 on a scale of $[0, 1]$) in simulation and demonstrates zero-shot generalization to unseen real-world samples, and (2) \\emph{differentiable progress guidance}: We introduce an inverse dynamics world model that maps predicted action tokens into future latent visual states. These latents are then processed by the progress estimator; by applying a maximal progress regularization, we establish a differentiable pipeline that provides progress-piloted guidance to refine action tokens. Extensive experiments on the CALVIN and LIBERO benchmarks, alongside real-world robot deployment, consistently demonstrate substantial improvements in success rates and generalization over strong baselines.",
+  "authors": [
+    "Hongyu Yan",
+    "Qiwei Li",
+    "Jiaolong Yang",
+    "Yadong Mu"
+  ],
+  "published": "2026-03-29T12:38:11Z",
+  "updated": "2026-03-29T12:38:11Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.27670v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.27670v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-19T04:42:14.701839+00:00"
+}

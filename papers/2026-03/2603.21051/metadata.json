@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2603.21051",
+  "version": "2603.21051v1",
+  "title": "Cortical Policy: A Dual-Stream View Transformer for Robotic Manipulation",
+  "summary": "View transformers process multi-view observations to predict actions and have shown impressive performance in robotic manipulation. Existing methods typically extract static visual representations in a view-specific manner, leading to inadequate 3D spatial reasoning ability and a lack of dynamic adaptation. Taking inspiration from how the human brain integrates static and dynamic views to address these challenges, we propose Cortical Policy, a novel dual-stream view transformer for robotic manipulation that jointly reasons from static-view and dynamic-view streams. The static-view stream enhances spatial understanding by aligning features of geometrically consistent keypoints extracted from a pretrained 3D foundation model. The dynamic-view stream achieves adaptive adjustment through position-aware pretraining of an egocentric gaze estimation model, computationally replicating the human cortical dorsal pathway. Subsequently, the complementary view representations of both streams are integrated to determine the final actions, enabling the model to handle spatially-complex and dynamically-changing tasks under language conditions. Empirical evaluations on RLBench, the challenging COLOSSEUM benchmark, and real-world tasks demonstrate that Cortical Policy outperforms state-of-the-art baselines substantially, validating the superiority of dual-stream design for visuomotor control. Our cortex-inspired framework offers a fresh perspective for robotic manipulation and holds potential for broader application in vision-based robot control.",
+  "authors": [
+    "Xuening Zhang",
+    "Qi Lv",
+    "Xiang Deng",
+    "Miao Zhang",
+    "Xingbo Liu",
+    "Liqiang Nie"
+  ],
+  "published": "2026-03-22T04:18:54Z",
+  "updated": "2026-03-22T04:18:54Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.21051v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.21051v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.113943+00:00"
+}

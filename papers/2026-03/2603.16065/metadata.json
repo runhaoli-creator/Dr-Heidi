@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2603.16065",
+  "version": "2603.16065v2",
+  "title": "Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models",
+  "summary": "Reinforcement Learning (RL) has shown great potential in refining robotic manipulation policies, yet its efficacy remains strongly bottlenecked by the difficulty of designing generalizable reward functions. In this paper, we propose a framework for online policy refinement by adapting foundation VLMs into online reward generators. We develop a robust, scalable reward model based on a state-of-the-art VLM, trained on a large-scale, multi-source dataset encompassing real-world robot trajectories, human-object interactions, and diverse simulated environments. Unlike prior approaches that evaluate entire trajectories post-hoc, our method leverages the VLM to formulate a multifaceted reward signal comprising process, completion, and temporal contrastive rewards based on current visual observations. Initializing with a base policy trained via Imitation Learning (IL), we employ these VLM rewards to guide the model to correct sub-optimal behaviors in a closed-loop manner. We evaluate our framework on challenging long-horizon manipulation benchmarks requiring sequential execution and precise control. Crucially, our reward model operates in a purely zero-shot manner within these test environments. Experimental results demonstrate that our method significantly improves the success rate of the initial IL policy within just 30 RL iterations, demonstrating remarkable sample efficiency. This empirical evidence highlights that VLM-generated signals can provide reliable feedback to resolve execution errors, effectively eliminating the need for manual reward engineering and facilitating efficient online refinement for robot learning.",
+  "authors": [
+    "Yanru Wu",
+    "Weiduo Yuan",
+    "Ang Qi",
+    "Vitor Guizilini",
+    "Jiageng Mao",
+    "Yue Wang"
+  ],
+  "published": "2026-03-17T02:22:16Z",
+  "updated": "2026-03-22T05:43:21Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.16065v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.16065v2",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.609520+00:00"
+}

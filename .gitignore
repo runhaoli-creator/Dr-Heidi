@@ -1,0 +1,37 @@
+# Experiment artifacts
+outputs/
+checkpoints/
+runs/
+wandb/
+logs/
+*.ckpt
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env / editors
+.venv/
+venv/
+env/
+.env
+.env.local
+.DS_Store
+.idea/
+.vscode/
+
+# Data (override per-project if needed)
+data/
+*.npy
+*.npz
+*.h5
+
+# Dr. Agent — don't commit fetched PDFs or extracted text
+papers/**/pdf/

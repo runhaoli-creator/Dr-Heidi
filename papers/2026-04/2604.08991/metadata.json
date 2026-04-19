@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2604.08991",
+  "version": "2604.08991v1",
+  "title": "PinpointQA: A Dataset and Benchmark for Small Object-Centric Spatial Understanding in Indoor Videos",
+  "summary": "Small object-centric spatial understanding in indoor videos remains a significant challenge for multimodal large language models (MLLMs), despite its practical value for object search and assistive applications. Although existing benchmarks have advanced video spatial intelligence, embodied reasoning, and diagnostic perception, no existing benchmark directly evaluates whether a model can localize a target object in video and express its position with sufficient precision for downstream use. In this work, we introduce PinpointQA, the first dataset and benchmark for small object-centric spatial understanding in indoor videos. Built from ScanNet++ and ScanNet200, PinpointQA comprises 1,024 scenes and 10,094 QA pairs organized into four progressively challenging tasks: Target Presence Verification (TPV), Nearest Reference Identification (NRI), Fine-Grained Spatial Description (FSD), and Structured Spatial Prediction (SSP). The dataset is built from intermediate spatial representations, with QA pairs generated automatically and further refined through quality control. Experiments on representative MLLMs reveal a consistent capability gap along the progressive chain, with SSP remaining particularly difficult. Supervised fine-tuning on PinpointQA yields substantial gains, especially on the harder tasks, demonstrating that PinpointQA serves as both a diagnostic benchmark and an effective training dataset. The dataset and project page are available at https://rainchowz.github.io/PinpointQA.",
+  "authors": [
+    "Zhiyu Zhou",
+    "Peilin Liu",
+    "Ruoxuan Zhang",
+    "Luyang Zhang",
+    "Cheng Zhang",
+    "Hongxia Xie",
+    "Wen-Huang Cheng"
+  ],
+  "published": "2026-04-10T05:53:47Z",
+  "updated": "2026-04-10T05:53:47Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.08991v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.08991v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.607692+00:00"
+}

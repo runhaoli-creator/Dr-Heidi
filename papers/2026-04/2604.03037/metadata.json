@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2604.03037",
+  "version": "2604.03037v1",
+  "title": "ARM: Advantage Reward Modeling for Long-Horizon Manipulation",
+  "summary": "Long-horizon robotic manipulation remains challenging for reinforcement learning (RL) because sparse rewards provide limited guidance for credit assignment. Practical policy improvement thus relies on richer intermediate supervision, such as dense progress rewards, which are costly to obtain and ill-suited to non-monotonic behaviors such as backtracking and recovery. To address this, we propose Advantage Reward Modeling (ARM), a framework that shifts from hard-to-quantify absolute progress to estimating relative advantage. We introduce a cost-effective tri-state labeling strategy -- Progressive, Regressive, and Stagnant -- that reduces human cognitive overhead while ensuring high cross-annotator consistency. By training on these intuitive signals, ARM enables automated progress annotation for both complete demonstrations and fragmented DAgger-style data. Integrating ARM into an offline RL pipeline allows for adaptive action-reward reweighting, effectively filtering suboptimal samples. Our approach achieves a 99.4% success rate on a challenging long-horizon towel-folding task, demonstrating improved stability and data efficiency over current VLA baselines with near-zero human intervention during policy training.",
+  "authors": [
+    "Yiming Mao",
+    "Zixi Yu",
+    "Weixin Mao",
+    "Yinhao Li",
+    "Qirui Hu",
+    "Zihan Lan",
+    "Minzhao Zhu",
+    "Hua Chen"
+  ],
+  "published": "2026-04-03T13:45:59Z",
+  "updated": "2026-04-03T13:45:59Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.03037v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.03037v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.608639+00:00"
+}

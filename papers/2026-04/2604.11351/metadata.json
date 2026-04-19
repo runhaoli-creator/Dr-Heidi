@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2604.11351",
+  "version": "2604.11351v1",
+  "title": "WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models",
+  "summary": "Imitation learning is a powerful paradigm for training robotic policies, yet its performance is limited by compounding errors: minor policy inaccuracies could drive robots into unseen out-of-distribution (OOD) states in the training set, where the policy could generate even bigger errors, leading to eventual failures. While the Data Aggregation (DAgger) framework tries to address this issue, its reliance on continuous human involvement severely limits scalability. In this paper, we propose WM-DAgger, an efficient data aggregation framework that leverages World Models to synthesize OOD recovery data without requiring human involvement. Specifically, we focus on manipulation tasks with an eye-in-hand robotic arm and only few-shot demonstrations. To avoid synthesizing misleading data and overcome the hallucination issues inherent to World Models, our framework introduces two key mechanisms: (1) a Corrective Action Synthesis Module that generates task-oriented recovery actions to prevent misleading supervision, and (2) a Consistency-Guided Filtering Module that discards physically implausible trajectories by anchoring terminal synthesized frames to corresponding real frames in expert demonstrations. We extensively validate WM-DAgger on multiple real-world robotic tasks. Results that our method significantly improves success rates, achieving a 93.3\\% success rate in soft bag pushing with only five demonstrations. The source code is publicly available at https://github.com/czs12354-xxdbd/WM-Dagger.",
+  "authors": [
+    "Anlan Yu",
+    "Zaishu Chen",
+    "Peili Song",
+    "Zhiqing Hong",
+    "Haotian Wang",
+    "Desheng Zhang",
+    "Tian He",
+    "Yi Ding",
+    "Daqing Zhang"
+  ],
+  "published": "2026-04-13T11:49:11Z",
+  "updated": "2026-04-13T11:49:11Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11351v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11351v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.911438+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2604.11572",
+  "version": "2604.11572v1",
+  "title": "DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models",
+  "summary": "Vision-Language-Action models (VLAs) have demonstrated strong potential for embodied AI, yet their deployment on resource-limited robots remains challenging due to high memory and computational demands. While Post-Training Quantization (PTQ) provides an efficient solution, directly applying PTQ to VLAs often results in severe performance degradation during sequential control. We identify temporal error accumulation as a key factor, where quantization perturbations at the vision-language-to-action interface are progressively amplified, leading to kinematic drift in executed trajectories. To address this issue, we propose Drift-Aware Post-Training Quantization (DA-PTQ), which formulates quantization as a drift-aware optimization problem over sequential decision processes. DA-PTQ consists of two components: (1) Cross-Space Representation Compensation, which mitigates structured distortions between multimodal representations and action space to improve action consistency, and (2) Motion-Driven Mixed-Precision Allocation, which assigns bit-widths by minimizing trajectory-level motion errors. Extensive experiments show that DA-PTQ significantly reduces kinematic drift and achieves comparable performance to full-precision models under low-bit settings, enabling practical deployment of VLAs on resource-limited robotic platforms.",
+  "authors": [
+    "Siyuan Xu",
+    "Tianshi Wang",
+    "Fengling Li",
+    "Lei Zhu",
+    "Heng Tao Shen"
+  ],
+  "published": "2026-04-13T14:51:43Z",
+  "updated": "2026-04-13T14:51:43Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.MM"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11572v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11572v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-18T22:59:37.446874+00:00"
+}

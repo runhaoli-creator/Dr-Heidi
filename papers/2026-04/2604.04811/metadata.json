@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2604.04811",
+  "version": "2604.04811v1",
+  "title": "AnyUser: Translating Sketched User Intent into Domestic Robots",
+  "summary": "We introduce AnyUser, a unified robotic instruction system for intuitive domestic task instruction via free-form sketches on camera images, optionally with language. AnyUser interprets multimodal inputs (sketch, vision, language) as spatial-semantic primitives to generate executable robot actions requiring no prior maps or models. Novel components include multimodal fusion for understanding and a hierarchical policy for robust action generation. Efficacy is shown via extensive evaluations: (1) Quantitative benchmarks on the large-scale dataset showing high accuracy in interpreting diverse sketch-based commands across various simulated domestic scenes. (2) Real-world validation on two distinct robotic platforms, a statically mounted 7-DoF assistive arm (KUKA LBR iiwa) and a dual-arm mobile manipulator (Realman RMC-AIDAL), performing representative tasks like targeted wiping and area cleaning, confirming the system's ability to ground instructions and execute them reliably in physical environments. (3) A comprehensive user study involving diverse demographics (elderly, simulated non-verbal, low technical literacy) demonstrating significant improvements in usability and task specification efficiency, achieving high task completion rates (85.7%-96.4%) and user satisfaction. AnyUser bridges the gap between advanced robotic capabilities and the need for accessible non-expert interaction, laying the foundation for practical assistive robots adaptable to real-world human environments.",
+  "authors": [
+    "Songyuan Yang",
+    "Huibin Tan",
+    "Kailun Yang",
+    "Wenjing Yang",
+    "Shaowu Yang"
+  ],
+  "published": "2026-04-06T16:16:00Z",
+  "updated": "2026-04-06T16:16:00Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.HC"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.04811v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.04811v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.608042+00:00"
+}

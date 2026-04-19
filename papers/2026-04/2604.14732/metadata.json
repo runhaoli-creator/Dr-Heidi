@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2604.14732",
+  "version": "2604.14732v1",
+  "title": "World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems",
+  "summary": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for building embodied agents that ground perception and language into action. However, most existing approaches rely on direct action prediction, lacking the ability to reason over long-horizon trajectories and evaluate their consequences, which limits performance in complex decision-making tasks. In this work, we introduce World-Value-Action (WAV) model, a unified framework that enables implicit planning in VLA systems. Rather than performing explicit trajectory optimization, WAV model learn a structured latent representation of future trajectories conditioned on visual observations and language instructions. A learned world model predicts future states, while a trajectory value function evaluates their long-horizon utility. Action generation is then formulated as inference in this latent space, where the model progressively concentrates probability mass on high-value and dynamically feasible trajectories. We provide a theoretical perspective showing that planning directly in action space suffers from an exponential decay in the probability of feasible trajectories as the horizon increases. In contrast, latent-space inference reshapes the search distribution toward feasible regions, enabling efficient long-horizon decision making. Extensive simulations and real-world experiments demonstrate that the WAV model consistently outperforms state-of-the-art methods, achieving significant improvements in task success rate, generalization ability, and robustness, especially in long-horizon and compositional scenarios.",
+  "authors": [
+    "Runze Li",
+    "Hongyin Zhang",
+    "Junxi Jin",
+    "Qixin Zeng",
+    "Zifeng Zhuang",
+    "Yiqi Tang",
+    "Shangke Lyu",
+    "Donglin Wang"
+  ],
+  "published": "2026-04-16T07:46:05Z",
+  "updated": "2026-04-16T07:46:05Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.14732v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.14732v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-18T22:22:28.733754+00:00"
+}

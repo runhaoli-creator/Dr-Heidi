@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2603.18784",
+  "version": "2603.18784v1",
+  "title": "ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing",
+  "summary": "Deformable objects often appear in unstructured configurations. Tracing deformable objects helps bringing them into extended states and facilitating the downstream manipulation tasks. Due to the requirements for object-specific modeling or sim-to-real transfer, existing tracing methods either lack generalizability across different categories of deformable objects or struggle to complete tasks reliably in the real world. To address this, we propose a novel visual-tactile imitation learning method to achieve one-dimensional (1D) and two-dimensional (2D) deformable object tracing with a unified model. Our method is designed from both local and global perspectives based on visual and tactile sensing. Locally, we introduce a weighted loss that emphasizes actions maintaining contact near the center of the tactile image, improving fine-grained adjustment. Globally, we propose a tracing task loss that helps the policy to regulate task progression. On the hardware side, to compensate for the limited features extracted from visual information, we integrate tactile sensing into a low-cost teleoperation system considering both the teleoperator and the robot. Extensive ablation and comparative experiments on diverse 1D and 2D deformable objects demonstrate the effectiveness of our approach, achieving an average success rate of 80% on seen objects and 65% on unseen objects.",
+  "authors": [
+    "Yongqiang Zhao",
+    "Haining Luo",
+    "Yupeng Wang",
+    "Emmanouil Spyrakos Papastavridis",
+    "Yiannis Demiris",
+    "Shan Luo"
+  ],
+  "published": "2026-03-19T11:35:26Z",
+  "updated": "2026-03-19T11:35:26Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.18784v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.18784v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-19T04:42:26.450141+00:00"
+}

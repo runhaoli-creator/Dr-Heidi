@@ -1,0 +1,39 @@
+{
+  "arxiv_id": "2603.28545",
+  "version": "2603.28545v1",
+  "title": "ManipArena: Comprehensive Real-world Evaluation of Reasoning-Oriented Generalist Robot Manipulation",
+  "summary": "Vision-Language-Action (VLA) models and world models have recently emerged as promising paradigms for general-purpose robotic intelligence, yet their progress is hindered by the lack of reliable evaluation protocols that reflect real-world deployment. Existing benchmarks are largely simulator-centric, which provide controllability but fail to capture the reality gap caused by perception noise, complex contact dynamics, hardware constraints, and system latency. Moreover, fragmented real-world evaluations across different robot platforms prevent fair and reproducible comparison. To address these challenges, we introduce ManipArena, a standardized evaluation framework designed to bridge simulation and real-world execution. ManipArena comprises 20 diverse tasks across 10,812 expert trajectories emphasizing reasoning-oriented manipulation tasks requiring semantic and spatial reasoning, supports multi-level generalization through controlled out-of-distribution settings, and incorporates long-horizon mobile manipulation beyond tabletop scenarios. The framework further provides rich sensory diagnostics, including low-level motor signals, and synchronized real-to-sim environments constructed via high-quality 3D scanning. Together, these features enable fair, realistic, and reproducible evaluation for both VLA and world model approaches, providing a scalable foundation for diagnosing and advancing embodied intelligence systems.",
+  "authors": [
+    "Yu Sun",
+    "Meng Cao",
+    "Ping Yang",
+    "Rongtao Xu",
+    "Yunxiao Yan",
+    "Runze Xu",
+    "Liang Ma",
+    "Roy Gan",
+    "Andy Zhai",
+    "Qingxuan Chen",
+    "Zunnan Xu",
+    "Hao Wang",
+    "Jincheng Yu",
+    "Lucy Liang",
+    "Qian Wang",
+    "Ivan Laptev",
+    "Ian D Reid",
+    "Xiaodan Liang"
+  ],
+  "published": "2026-03-30T15:06:41Z",
+  "updated": "2026-03-30T15:06:41Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.28545v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.28545v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-19T04:42:14.701579+00:00"
+}

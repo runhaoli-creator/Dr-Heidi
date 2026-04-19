@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2604.09877",
+  "version": "2604.09877v1",
+  "title": "DINO_4D: Semantic-Aware 4D Reconstruction",
+  "summary": "In the intersection of computer vision and robotic perception, 4D reconstruction of dynamic scenes serve as the critical bridge connecting low-level geometric sensing with high-level semantic understanding. We present DINO\\_4D, introducing frozen DINOv3 features as structural priors, injecting semantic awareness into the reconstruction process to effectively suppress semantic drift during dynamic tracking. Experiments on the Point Odyssey and TUM-Dynamics benchmarks demonstrate that our method maintains the linear time complexity $O(T)$ of its predecessors while significantly improving Tracking Accuracy (APD) and Reconstruction Completeness. DINO\\_4D establishes a new paradigm for constructing 4D World Models that possess both geometric precision and semantic understanding.",
+  "authors": [
+    "Yiru Yang",
+    "Zhuojie Wu",
+    "Quentin Marguet",
+    "Nishant Kumar Singh",
+    "Max Schulthess"
+  ],
+  "published": "2026-04-10T20:07:14Z",
+  "updated": "2026-04-10T20:07:14Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.09877v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09877v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.912238+00:00"
+}

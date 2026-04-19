@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2603.16952",
+  "version": "2603.16952v2",
+  "title": "Embodied Foundation Models at the Edge: A Survey of Deployment Constraints and Mitigation Strategies",
+  "summary": "Deploying foundation models in embodied edge systems is fundamentally a systems problem, not just a problem of model compression. Real-time control must operate within strict size, weight, and power constraints, where memory traffic, compute latency, timing variability, and safety margins interact directly. The Deployment Gauntlet organizes these constraints into eight coupled barriers that determine whether embodied foundation models can run reliably in practice. Across representative edge workloads, autoregressive Vision-Language-Action policies are constrained primarily by memory bandwidth, whereas diffusion-based controllers are limited more by compute latency and sustained execution cost. Reliable deployment therefore depends on system-level co-design across memory, scheduling, communication, and model architecture, including decompositions that separate fast control from slower semantic reasoning.",
+  "authors": [
+    "Utkarsh Grover",
+    "Ravi Ranjan",
+    "Mingyang Mao",
+    "Trung Tien Dong",
+    "Satvik Praveen",
+    "Zhenqi Wu",
+    "J. Morris Chang",
+    "Tinoosh Mohsenin",
+    "Yi Sheng",
+    "Agoritsa Polyzou",
+    "Eiman Kanjo",
+    "Xiaomin Lin"
+  ],
+  "published": "2026-03-16T21:27:03Z",
+  "updated": "2026-03-19T02:29:21Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.16952v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.16952v2",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-19T04:42:18.404987+00:00"
+}

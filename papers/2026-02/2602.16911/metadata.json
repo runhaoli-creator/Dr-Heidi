@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2602.16911",
+  "version": "2602.16911v1",
+  "title": "SparTa: Sparse Graphical Task Models from a Handful of Demonstrations",
+  "summary": "Learning long-horizon manipulation tasks efficiently is a central challenge in robot learning from demonstration. Unlike recent endeavors that focus on directly learning the task in the action domain, we focus on inferring what the robot should achieve in the task, rather than how to do so. To this end, we represent evolving scene states using a series of graphical object relationships. We propose a demonstration segmentation and pooling approach that extracts a series of manipulation graphs and estimates distributions over object states across task phases. In contrast to prior graph-based methods that capture only partial interactions or short temporal windows, our approach captures complete object interactions spanning from the onset of control to the end of the manipulation. To improve robustness when learning from multiple demonstrations, we additionally perform object matching using pre-trained visual features. In extensive experiments, we evaluate our method's demonstration segmentation accuracy and the utility of learning from multiple demonstrations for finding a desired minimal task model. Finally, we deploy the fitted models both in simulation and on a real robot, demonstrating that the resulting task representations support reliable execution across environments.",
+  "authors": [
+    "Adrian R\u00f6fer",
+    "Nick Heppert",
+    "Abhinav Valada"
+  ],
+  "published": "2026-02-18T21:54:35Z",
+  "updated": "2026-02-18T21:54:35Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2602.16911v1",
+  "pdf_url": "https://arxiv.org/pdf/2602.16911v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-19T04:42:22.296830+00:00"
+}

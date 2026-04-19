@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2603.14669",
+  "version": "2603.14669v1",
+  "title": "RenderMem: Rendering as Spatial Memory Retrieval",
+  "summary": "Embodied reasoning is inherently viewpoint-dependent: what is visible, occluded, or reachable depends critically on where the agent stands. However, existing spatial memory systems for embodied agents typically store either multi-view observations or object-centric abstractions, making it difficult to perform reasoning with explicit geometric grounding. We introduce RenderMem, a spatial memory framework that treats rendering as the interface between 3D world representations and spatial reasoning. Instead of storing fixed observations, RenderMem maintains a 3D scene representation and generates query-conditioned visual evidence by rendering the scene from viewpoints implied by the query. This enables embodied agents to reason directly about line-of-sight, visibility, and occlusion from arbitrary perspectives. RenderMem is fully compatible with existing vision-language models and requires no modification to standard architectures. Experiments in the AI2-THOR environment show consistent improvements on viewpoint-dependent visibility and occlusion queries over prior memory baselines.",
+  "authors": [
+    "JooHyun Park",
+    "HyeongYeop Kang"
+  ],
+  "published": "2026-03-15T23:53:40Z",
+  "updated": "2026-03-15T23:53:40Z",
+  "primary_category": "cs.AI",
+  "categories": [
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.14669v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.14669v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.610080+00:00"
+}

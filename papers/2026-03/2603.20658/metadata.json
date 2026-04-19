@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2603.20658",
+  "version": "2603.20658v1",
+  "title": "Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation",
+  "summary": "While current embodied policies exhibit remarkable manipulation skills, their execution remains unsatisfactorily slow as they inherit the tardy pacing of human demonstrations. Existing acceleration methods typically require policy retraining or costly online interactions, limiting their scalability for large-scale foundation models. In this paper, we propose Speedup Patch (SuP), a lightweight, policy-agnostic framework that enables plug-and-play acceleration using solely offline data. SuP introduces an external scheduler that adaptively downsamples action chunks provided by embodied policies to eliminate redundancies. Specifically, we formalize the optimization of our scheduler as a Constrained Markov Decision Process (CMDP) aimed at maximizing efficiency without compromising task performance. Since direct success evaluation is infeasible in offline settings, SuP introduces World Model based state deviation as a surrogate metric to enforce safety constraints. By leveraging a learned world model as a virtual evaluator to predict counterfactual trajectories, the scheduler can be optimized via offline reinforcement learning. Empirical results on simulation benchmarks (Libero, Bigym) and real-world tasks validate that SuP achieves an overall 1.8x execution speedup for diverse policies while maintaining their original success rates.",
+  "authors": [
+    "Zhichao Wu",
+    "Junyin Ye",
+    "Zhilong Zhang",
+    "Yihao Sun",
+    "Haoxin Lin",
+    "Jiaheng Luo",
+    "Haoxiang Ren",
+    "Lei Yuan",
+    "Yang Yu"
+  ],
+  "published": "2026-03-21T05:29:04Z",
+  "updated": "2026-03-21T05:29:04Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.20658v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.20658v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.114264+00:00"
+}

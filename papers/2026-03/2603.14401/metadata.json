@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2603.14401",
+  "version": "2603.14401v1",
+  "title": "OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer",
+  "summary": "We present OCRA, an Object-Centric framework for video-based human-to-Robot Action transfer that learns directly from human demonstration videos to enable robust manipulation. Object-centric learning emphasizes task-relevant objects and their interactions while filtering out irrelevant background, providing a natural and scalable way to teach robots. OCRA leverages multi-view RGB videos, the state-of-the-art 3D foundation model VGGT, and advanced detection and segmentation models to reconstruct object-centric 3D point clouds, capturing rich interactions between objects. To handle properties not easily perceived by vision alone, we incorporate tactile priors via a large-scale dataset of over one million tactile images. These 3D and tactile priors are fused through a multimodal module (ResFiLM) and fed into a Diffusion Policy to generate robust manipulation actions. Extensive experiments on both vision-only and visuo-tactile tasks show that OCRA significantly outperforms existing baselines and ablations, demonstrating its effectiveness for learning from human demonstration videos.",
+  "authors": [
+    "Kuanning Wang",
+    "Ke Fan",
+    "Yuqian Fu",
+    "Siyu Lin",
+    "Hu Luo",
+    "Daniel Seita",
+    "Yanwei Fu",
+    "Yu-Gang Jiang",
+    "Xiangyang Xue"
+  ],
+  "published": "2026-03-15T14:31:03Z",
+  "updated": "2026-03-15T14:31:03Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.14401v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.14401v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-19T04:42:18.405551+00:00"
+}

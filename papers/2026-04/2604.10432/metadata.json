@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2604.10432",
+  "version": "2604.10432v2",
+  "title": "AnySlot: Goal-Conditioned Vision-Language-Action Policies for Zero-Shot Slot-Level Placement",
+  "summary": "Vision-Language-Action (VLA) policies have emerged as a versatile paradigm for generalist robotic manipulation. However, precise object placement under compositional language instructions remains a major challenge for modern monolithic VLA policies. Slot-level tasks require both reliable slot grounding and sub-centimeter execution accuracy. To this end, we propose AnySlot, a framework that reduces compositional complexity by introducing an explicit spatial visual goal as an intermediate representation between language grounding and control. AnySlot turns language into an explicit visual goal by generating a scene marker, then executes this goal with a goal-conditioned VLA policy. This hierarchical design effectively decouples high-level slot selection from low-level execution, ensuring both semantic accuracy and spatial robustness. Furthermore, recognizing the lack of existing benchmarks for such precision-demanding tasks, we introduce SlotBench, a comprehensive simulation benchmark featuring nine task categories tailored to evaluate structured spatial reasoning in slot-level placement. Extensive experiments show that AnySlot significantly outperforms flat VLA baselines and previous modular grounding methods in zero-shot slot-level placement.",
+  "authors": [
+    "Zhaofeng Hu",
+    "Sifan Zhou",
+    "Qinbo Zhang",
+    "Rongtao Xu",
+    "Qi Su",
+    "Ci-Jyun Liang"
+  ],
+  "published": "2026-04-12T03:09:44Z",
+  "updated": "2026-04-14T04:07:15Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.10432v2",
+  "pdf_url": "https://arxiv.org/pdf/2604.10432v2",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-19T04:42:10.408580+00:00"
+}

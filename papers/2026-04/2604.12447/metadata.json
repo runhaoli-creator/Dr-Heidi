@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2604.12447",
+  "version": "2604.12447v1",
+  "title": "HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models",
+  "summary": "Vision-Language-Action (VLA) models inherit rich world knowledge from vision-language backbones and acquire executable skills via action demonstrations. However, existing evaluations largely focus on action execution success, leaving action policies loosely coupled with visual-linguistic semantics. This decoupling exposes a systematic vulnerability whereby correct action execution may induce unsafe outcomes under semantic risk. To expose this vulnerability, we introduce HazardArena, a benchmark designed to evaluate semantic safety in VLAs under controlled yet risk-bearing contexts. HazardArena is constructed from safe/unsafe twin scenarios that share matched objects, layouts, and action requirements, differing only in the semantic context that determines whether an action is unsafe. We find that VLA models trained exclusively on safe scenarios often fail to behave safely when evaluated in their corresponding unsafe counterparts. HazardArena includes over 2,000 assets and 40 risk-sensitive tasks spanning 7 real-world risk categories grounded in established robotic safety standards. To mitigate this vulnerability, we propose a training-free Safety Option Layer that constrains action execution using semantic attributes or a vision-language judge, substantially reducing unsafe behaviors with minimal impact on task performance. We hope that HazardArena highlights the need to rethink how semantic safety is evaluated and enforced in VLAs as they scale toward real-world deployment.",
+  "authors": [
+    "Zixing Chen",
+    "Yifeng Gao",
+    "Li Wang",
+    "Yunhan Zhao",
+    "Yi Liu",
+    "Jiayu Li",
+    "Xiang Zheng",
+    "Zuxuan Wu",
+    "Cong Wang",
+    "Xingjun Ma",
+    "Yu-Gang Jiang"
+  ],
+  "published": "2026-04-14T08:32:02Z",
+  "updated": "2026-04-14T08:32:02Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.12447v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.12447v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-18T22:59:37.445867+00:00"
+}

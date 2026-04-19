@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2604.06754",
+  "version": "2604.06754v1",
+  "title": "The Rhetoric of Machine Learning",
+  "summary": "I examine the technology of machine learning from the perspective of rhetoric, which is simply the art of persuasion. Rather than being a neutral and \"objective\" way to build \"world models\" from data, machine learning is (I argue) inherently rhetorical. I explore some of its rhetorical features, and examine one pervasive business model where machine learning is widely used, \"manipulation as a service.\"",
+  "authors": [
+    "Robert C. Williamson"
+  ],
+  "published": "2026-04-08T07:20:38Z",
+  "updated": "2026-04-08T07:20:38Z",
+  "primary_category": "cs.LG",
+  "categories": [
+    "cs.LG",
+    "cs.CY"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.06754v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.06754v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.913629+00:00"
+}

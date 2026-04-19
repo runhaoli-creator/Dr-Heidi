@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2604.10517",
+  "version": "2604.10517v1",
+  "title": "From Perception to Planning: Evolving Ego-Centric Task-Oriented Spatiotemporal Reasoning via Curriculum Learning",
+  "summary": "Modern vision-language models achieve strong performance in static perception, but remain limited in the complex spatiotemporal reasoning required for embodied, egocentric tasks. A major source of failure is their reliance on temporal priors learned from passive video data, which often leads to spatiotemporal hallucinations and poor generalization in dynamic environments. To address this, we present EgoTSR, a curriculum-based framework for learning task-oriented spatiotemporal reasoning. EgoTSR is built on the premise that embodied reasoning should evolve from explicit spatial understanding to internalized task-state assessment and finally to long-horizon planning. To support this paradigm, we construct EgoTSR-Data, a large-scale dataset comprising 46 million samples organized into three stages: Chain-of-Thought (CoT) supervision, weakly supervised tagging, and long-horizon sequences. Extensive experiments demonstrate that EgoTSR effectively eliminates chronological biases, achieving 92.4% accuracy on long-horizon logical reasoning tasks while maintaining high fine-grained perceptual precision, significantly outperforming existing open-source and closed-source state-of-the-art models.",
+  "authors": [
+    "Xiaoda Yang",
+    "Yuxiang Liu",
+    "Shenzhou Gao",
+    "Can Wang",
+    "Jingyang Xue",
+    "Lixin Yang",
+    "Yao Mu",
+    "Tao Jin",
+    "Shuicheng Yan",
+    "Zhimeng Zhang",
+    "Zhou Zhao"
+  ],
+  "published": "2026-04-12T08:14:49Z",
+  "updated": "2026-04-12T08:14:49Z",
+  "primary_category": "cs.AI",
+  "categories": [
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.10517v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.10517v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.606571+00:00"
+}

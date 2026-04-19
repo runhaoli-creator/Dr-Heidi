@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2603.15759",
+  "version": "2603.15759v1",
+  "title": "Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation",
+  "summary": "Simulation-to-real transfer remains a central challenge in robotics, as mismatches between simulated and real-world dynamics often lead to failures. While reinforcement learning offers a principled mechanism for adaptation, existing sim-to-real finetuning methods struggle with exploration and long-horizon credit assignment in the low-data regimes typical of real-world robotics. We introduce Simulation Distillation (SimDist), a sim-to-real framework that distills structural priors from a simulator into a latent world model and enables rapid real-world adaptation via online planning and supervised dynamics finetuning. By transferring reward and value models directly from simulation, SimDist provides dense planning signals from raw perception without requiring value learning during deployment. As a result, real-world adaptation reduces to short-horizon system identification, avoiding long-horizon credit assignment and enabling fast, stable improvement. Across precise manipulation and quadruped locomotion tasks, SimDist substantially outperforms prior methods in data efficiency, stability, and final performance. Project website and code: https://sim-dist.github.io/",
+  "authors": [
+    "Jacob Levy",
+    "Tyler Westenbroek",
+    "Kevin Huang",
+    "Fernando Palafox",
+    "Patrick Yin",
+    "Shayegan Omidshafiei",
+    "Dong-Ki Kim",
+    "Abhishek Gupta",
+    "David Fridovich-Keil"
+  ],
+  "published": "2026-03-16T18:00:23Z",
+  "updated": "2026-03-16T18:00:23Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.15759v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.15759v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-19T04:42:26.451327+00:00"
+}

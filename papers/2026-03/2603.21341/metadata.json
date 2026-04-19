@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2603.21341",
+  "version": "2603.21341v1",
+  "title": "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models",
+  "summary": "Improving embodied reasoning in multimodal-large-language models (MLLMs) is essential for building vision-language-action models (VLAs) on top of them to readily translate multimodal understanding into low-level actions. Accordingly, recent work has explored enhancing embodied reasoning in MLLMs through supervision of vision-question-answering type. However, these approaches have been reported to result in unstable VLA performance, often yielding only marginal or even negative gains. In this paper, we propose a more systematic MLLM training framework RoboAlign that reliably improves VLA performance. Our key idea is to sample action tokens via zero-shot natural language reasoning and refines this reasoning using reinforcement learning (RL) to improve action accuracy. As a result, RoboAlign bridges the modality gap between language and low-level actions in MLLMs, and facilitate knowledge transfer from MLLM to VLA. To validate the effectiveness of RoboAlign, we train VLAs by adding a diffusion-based action head on top of an MLLM backbone and evaluate them on major robotics benchmarks. Remarkably, by performing RL-based alignment after SFT using less than 1\\% of the data, RoboAlign achieves performance improvements of 17.5\\%, 18.9\\%, and 106.6\\% over SFT baselines on LIBERO, CALVIN, and real-world environments, respectively.",
+  "authors": [
+    "Dongyoung Kim",
+    "Sumin Park",
+    "Woomin Song",
+    "Seungku Kim",
+    "Taeyoung Kim",
+    "Huiwon Jang",
+    "Jinwoo Shin",
+    "Jaehyung Kim",
+    "Younggyo Seo"
+  ],
+  "published": "2026-03-22T17:57:55Z",
+  "updated": "2026-03-22T17:57:55Z",
+  "primary_category": "cs.AI",
+  "categories": [
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.21341v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.21341v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.609235+00:00"
+}

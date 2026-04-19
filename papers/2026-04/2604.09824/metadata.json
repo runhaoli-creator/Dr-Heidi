@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2604.09824",
+  "version": "2604.09824v1",
+  "title": "ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models",
+  "summary": "Vision language action (VLA) models enable generalist robotic agents but often exhibit language ignorance, relying on visual shortcuts and remaining insensitive to instruction changes. We present Prospective Grounding and Alignment VLA (ProGAL-VLA), which constructs a 3D entity-centric graph (GSM), uses a slow planner to produce symbolic sub-goals, and aligns them with grounded entities via a Grounding Alignment Contrastive (GAC) loss. All actions are conditioned on a verified goal embedding $g_t$, whose attention entropy provides an intrinsic ambiguity signal. On LIBERO-Plus, ProGAL-VLA increases robustness under robot perturbations from 30.3 to 71.5 percent, reduces language ignorance by 3x-4x, and improves entity retrieval from 0.41 to 0.71 Recall@1. On the Custom Ambiguity Benchmark, it reaches AUROC 0.81 (vs. 0.52), AUPR 0.79, and raises clarification on ambiguous inputs from 0.09 to 0.81 without harming unambiguous success. The verification bottleneck increases mutual information of language-actions, the GAC loss imposes an entity-level InfoNCE bound, and attention entropy yields calibrated selective prediction, indicating that explicit verified grounding is an effective path toward instruction-sensitive, ambiguity-aware agents.",
+  "authors": [
+    "Nastaran Darabi",
+    "Amit Ranjan Trivedi"
+  ],
+  "published": "2026-04-10T18:56:48Z",
+  "updated": "2026-04-10T18:56:48Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.09824v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09824v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-19T04:42:10.409896+00:00"
+}

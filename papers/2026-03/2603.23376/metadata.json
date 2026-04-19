@@ -1,0 +1,35 @@
+{
+  "arxiv_id": "2603.23376",
+  "version": "2603.23376v2",
+  "title": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment",
+  "summary": "Video-based world models offer a powerful paradigm for embodied simulation and planning, yet state-of-the-art models often generate physically implausible manipulations - such as object penetration and anti-gravity motion - due to training on generic visual data and likelihood-based objectives that ignore physical laws. We present ABot-PhysWorld, a 14B Diffusion Transformer model that generates visually realistic, physically plausible, and action-controllable videos. Built on a curated dataset of three million manipulation clips with physics-aware annotation, it uses a novel DPO-based post-training framework with decoupled discriminators to suppress unphysical behaviors while preserving visual quality. A parallel context block enables precise spatial action injection for cross-embodiment control. To better evaluate generalization, we introduce EZSbench, the first training-independent embodied zero-shot benchmark combining real and synthetic unseen robot-task-scene combinations. It employs a decoupled protocol to separately assess physical realism and action alignment. ABot-PhysWorld achieves new state-of-the-art performance on PBench and EZSbench, surpassing Veo 3.1 and Sora v2 Pro in physical plausibility and trajectory consistency. We will release EZSbench to promote standardized evaluation in embodied video generation.",
+  "authors": [
+    "Yuzhi Chen",
+    "Ronghan Chen",
+    "Dongjie Huo",
+    "Yandan Yang",
+    "Dekang Qi",
+    "Haoyun Liu",
+    "Tong Lin",
+    "Shuang Zeng",
+    "Junjin Xiao",
+    "Xinyuan Chang",
+    "Feng Xiong",
+    "Xing Wei",
+    "Zhiheng Ma",
+    "Mu Xu"
+  ],
+  "published": "2026-03-24T16:07:09Z",
+  "updated": "2026-03-27T09:50:16Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.23376v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.23376v2",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.113672+00:00"
+}

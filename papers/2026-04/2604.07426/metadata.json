@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.07426",
+  "version": "2604.07426v1",
+  "title": "GIRL: Generative Imagination Reinforcement Learning via Information-Theoretic Hallucination Control",
+  "summary": "Model-based reinforcement learning (MBRL) improves sample efficiency by optimizing policies inside imagined rollouts, but long-horizon planning degrades when model errors compound and imagined trajectories drift off the training manifold. We introduce GIRL (Generative Imagination Reinforcement Learning), a latent world-model framework that addresses this failure mode with two key components. First, a cross-modal grounding signal derived from a frozen foundation model (DINOv2) anchors the latent transition prior to a semantically consistent embedding space, penalizing inconsistent or implausible predictions. Second, an uncertainty-adaptive trust-region bottleneck interprets the KL regularizer as the Lagrange multiplier of a constrained optimization problem, restricting imagination drift within a learned region calibrated by Expected Information Gain and a Relative Performance Loss signal. We re-derive a value-gap bound using the Performance Difference Lemma and Integral Probability Metrics, yielding a bound that remains informative as the discount factor approaches one and connects the objective to real-environment regret. Experiments across three benchmark suites, including DeepMind Control, Adroit Hand Manipulation, and Meta-World with visual distractors, show that GIRL reduces latent rollout drift by 38 to 61 percent across tasks relative to DreamerV3, improves asymptotic return, and requires fewer environment interactions on long-horizon tasks. GIRL also outperforms TD-MPC2 on sparse-reward and high-contact settings under standard evaluation metrics. A distilled-prior variant reduces inference overhead and improves computational efficiency relative to the full model.",
+  "authors": [
+    "Prakul Sunil Hiremath"
+  ],
+  "published": "2026-04-08T17:14:21Z",
+  "updated": "2026-04-08T17:14:21Z",
+  "primary_category": "cs.LG",
+  "categories": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.07426v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.07426v1",
+  "matched_groups": [
+    "embodied_foundation",
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.913407+00:00"
+}

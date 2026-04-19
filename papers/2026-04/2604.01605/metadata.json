@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2604.01605",
+  "version": "2604.01605v1",
+  "title": "F3DGS: Federated 3D Gaussian Splatting for Decentralized Multi-Agent World Modeling",
+  "summary": "We present F3DGS, a federated 3D Gaussian Splatting framework for decentralized multi-agent 3D reconstruction. Existing 3DGS pipelines assume centralized access to all observations, which limits their applicability in distributed robotic settings where agents operate independently, and centralized data aggregation may be restricted. Directly extending centralized training to multi-agent systems introduces communication overhead and geometric inconsistency. F3DGS first constructs a shared geometric scaffold by registering locally merged LiDAR point clouds from multiple clients to initialize a global 3DGS model. During federated optimization, Gaussian positions are fixed to preserve geometric alignment, while each client updates only appearance-related attributes, including covariance, opacity, and spherical harmonic coefficients. The server aggregates these updates using visibility-aware aggregation, weighting each client's contribution by how frequently it observed each Gaussian, resolving the partial-observability challenge inherent to multi-agent exploration. To evaluate decentralized reconstruction, we collect a multi-sequence indoor dataset with synchronized LiDAR, RGB, and IMU measurements. Experiments show that F3DGS achieves reconstruction quality comparable to centralized training while enabling distributed optimization across agents. The dataset, development kit, and source code will be publicly released.",
+  "authors": [
+    "Morui Zhu",
+    "Mohammad Dehghani Tezerjani",
+    "M\u00e1ty\u00e1s Sz\u00e1nt\u00f3",
+    "M\u00e1rton Vaitkus",
+    "Song Fu",
+    "Qing Yang"
+  ],
+  "published": "2026-04-02T04:29:44Z",
+  "updated": "2026-04-02T04:29:44Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.01605v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.01605v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-19T04:42:14.699451+00:00"
+}

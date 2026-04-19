@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2603.10263",
+  "version": "2603.10263v1",
+  "title": "From Prior to Pro: Efficient Skill Mastery via Distribution Contractive RL Finetuning",
+  "summary": "We introduce Distribution Contractive Reinforcement Learning (DICE-RL), a framework that uses reinforcement learning (RL) as a \"distribution contraction\" operator to refine pretrained generative robot policies. DICE-RL turns a pretrained behavior prior into a high-performing \"pro\" policy by amplifying high-success behaviors from online feedback. We pretrain a diffusion- or flow-based policy for broad behavioral coverage, then finetune it with a stable, sample-efficient residual off-policy RL framework that combines selective behavior regularization with value-guided action selection. Extensive experiments and analyses show that DICE-RL reliably improves performance with strong stability and sample efficiency. It enables mastery of complex long-horizon manipulation skills directly from high-dimensional pixel inputs, both in simulation and on a real robot. Project website: https://zhanyisun.github.io/dice.rl.2026/.",
+  "authors": [
+    "Zhanyi Sun",
+    "Shuran Song"
+  ],
+  "published": "2026-03-10T22:49:46Z",
+  "updated": "2026-03-10T22:49:46Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.10263v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.10263v1",
+  "matched_groups": [
+    "long_horizon"
+  ],
+  "fetched_at": "2026-04-18T22:59:51.610584+00:00"
+}

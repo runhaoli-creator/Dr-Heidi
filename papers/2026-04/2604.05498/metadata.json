@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2604.05498",
+  "version": "2604.05498v1",
+  "title": "JailWAM: Jailbreaking World Action Models in Robot Control",
+  "summary": "The World Action Model (WAM) can jointly predict future world states and actions, exhibiting stronger physical manipulation capabilities compared with traditional models. Such powerful physical interaction ability is a double-edged sword: if safety is ignored, it will directly threaten personal safety, property security and environmental safety. However, existing research pays extremely limited attention to the critical security gap: the vulnerability of WAM to jailbreak attacks. To fill this gap, we define the Three-Level Safety Classification Framework to systematically quantify the safety of robotic arm motions. Furthermore, we propose JailWAM, the first dedicated jailbreak attack and evaluation framework for WAM, which consists of three core components: (1) Visual-Trajectory Mapping, which unifies heterogeneous action spaces into visual trajectory representations and enables cross-architectural unified evaluation; (2) Risk Discriminator, which serves as a high-recall screening tool that optimizes the efficiency-accuracy trade-off when identifying destructive behaviors in visual trajectories; (3) Dual-Path Verification Strategy, which first conducts rapid coarse screening via a single-image-based video-action generation module, and then performs efficient and comprehensive verification through full closed-loop physical simulation. In addition, we construct JailWAM-Bench, a benchmark for comprehensively evaluating the safety alignment performance of WAM under jailbreak attacks. Experiments in RoboTwin simulation environment demonstrate that the proposed framework efficiently exposes physical vulnerabilities, achieving an 84.2% attack success rate on the state-of-the-art LingBot-VA. Meanwhile, robust defense mechanisms can be constructed based on JailWAM, providing an effective technical solution for designing safe and reliable robot control systems.",
+  "authors": [
+    "Hanqing Liu",
+    "Songping Wang",
+    "Jiahuan Long",
+    "Jiacheng Hou",
+    "Jialiang Sun",
+    "Chao Li",
+    "Yang Yang",
+    "Wei Peng",
+    "Xu Liu",
+    "Tingsong Jiang",
+    "Wen Yao",
+    "Yao Mu"
+  ],
+  "published": "2026-04-07T06:41:41Z",
+  "updated": "2026-04-07T06:41:41Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.05498v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.05498v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.914182+00:00"
+}

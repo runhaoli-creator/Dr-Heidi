@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2603.15789",
+  "version": "2603.15789v3",
+  "title": "Emergent Dexterity via Diverse Resets and Large-Scale Reinforcement Learning",
+  "summary": "Reinforcement learning in massively parallel physics simulations has driven major progress in sim-to-real robot learning. However, current approaches remain brittle and task-specific, relying on extensive per-task engineering to design rewards, curricula, and demonstrations. Even with this engineering, they often fail on long-horizon, contact-rich manipulation tasks and do not meaningfully scale with compute, as performance quickly saturates when training revisits the same narrow regions of state space. We introduce OmniReset, a simple and scalable framework that enables on-policy reinforcement learning to robustly solve a broad class of dexterous manipulation tasks using a single reward function, fixed algorithm hyperparameters, no curricula, and no human demonstrations. Our key insight is that long-horizon exploration can be dramatically simplified by using simulator resets to systematically expose the RL algorithm to the diverse set of robot-object interactions which underlie dexterous manipulation. OmniReset programmatically generates such resets with minimal human input, converting additional compute directly into broader behavioral coverage and continued performance gains. We show that OmniReset gracefully scales to long-horizon dexterous manipulation tasks beyond the capabilities of existing approaches and is able to learn robust policies over significantly wider ranges of initial conditions than baselines. Finally, we distill OmniReset into visuomotor policies which display robust retrying behavior and substantially higher success rates than baselines when transferred to the real world zero-shot. Project webpage: https://weirdlabuw.github.io/omnireset/",
+  "authors": [
+    "Patrick Yin",
+    "Tyler Westenbroek",
+    "Zhengyu Zhang",
+    "Joshua Tran",
+    "Ignacio Dagnino",
+    "Eeshani Shilamkar",
+    "Numfor Mbiziwo-Tiapo",
+    "Simran Bagaria",
+    "Xinlei Liu",
+    "Galen Mullins",
+    "Andrey Kolobov",
+    "Abhishek Gupta"
+  ],
+  "published": "2026-03-16T18:14:36Z",
+  "updated": "2026-04-02T01:57:12Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2603.15789v3",
+  "pdf_url": "https://arxiv.org/pdf/2603.15789v3",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-19T04:42:26.451115+00:00"
+}

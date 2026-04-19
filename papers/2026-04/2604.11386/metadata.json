@@ -1,0 +1,35 @@
+{
+  "arxiv_id": "2604.11386",
+  "version": "2604.11386v1",
+  "title": "ComSim: Building Scalable Real-World Robot Data Generation via Compositional Simulation",
+  "summary": "Recent advancements in foundational models, such as large language models and world models, have greatly enhanced the capabilities of robotics, enabling robots to autonomously perform complex tasks. However, acquiring large-scale, high-quality training data for robotics remains a challenge, as it often requires substantial manual effort and is limited in its coverage of diverse real-world environments. To address this, we propose a novel hybrid approach called Compositional Simulation, which combines classical simulation and neural simulation to generate accurate action-video pairs while maintaining real-world consistency. Our approach utilizes a closed-loop real-sim-real data augmentation pipeline, leveraging a small amount of real-world data to generate diverse, large-scale training datasets that cover a broader spectrum of real-world scenarios. We train a neural simulator to transform classical simulation videos into real-world representations, improving the accuracy of policy models trained in real-world environments. Through extensive experiments, we demonstrate that our method significantly reduces the sim2real domain gap, resulting in higher success rates in real-world policy model training. Our approach offers a scalable solution for generating robust training data and bridging the gap between simulated and real-world robotics.",
+  "authors": [
+    "Yiran Qin",
+    "Jiahua Ma",
+    "Li Kang",
+    "Wenzhan Li",
+    "Yihang Jiao",
+    "Xin Wen",
+    "Xiufeng Song",
+    "Heng Zhou",
+    "Jiwen Yu",
+    "Zhenfei Yin",
+    "Xihui Liu",
+    "Philip Torr",
+    "Yilun Du",
+    "Ruimao Zhang"
+  ],
+  "published": "2026-04-13T12:25:45Z",
+  "updated": "2026-04-13T12:25:45Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11386v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11386v1",
+  "matched_groups": [
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.911190+00:00"
+}

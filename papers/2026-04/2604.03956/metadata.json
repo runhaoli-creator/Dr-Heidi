@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.03956",
+  "version": "2604.03956v1",
+  "title": "VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models",
+  "summary": "Vision-language-action (VLA) models are emerging as embodied foundation models for robotic manipulation, but their deployment introduces a new unlearning challenge: removing unsafe, spurious, or privacy-sensitive behaviors without degrading perception, language grounding, and action control. In OpenVLA-style policies, behavior is produced through a fused visual encoder, a cross-modal projector, and a language backbone that predicts tokenized robot actions, so undesirable knowledge can be distributed across perception, alignment, and reasoning/action layers rather than confined to a single module. Consequently, partial unlearning applied only to the vision stack or only to the language backbone is often insufficient, while conventional unlearning baselines designed for standalone vision or language models may leave residual forgetting or incur unnecessary utility loss in embodied settings. We propose VLA-Forget, a hybrid unlearning framework that combines ratio-aware selective editing for perception and cross-modal specificity with layer-selective reasoning/action unlearning for utility-preserving forgetting. VLA-Forget jointly optimizes three objectives: targeted forgetting, perceptual preservation, and reasoning retention, through staged updates over the visual encoder, projector, and upper action-generating transformer blocks. Across forget-set behavior probes and retain-task evaluations, VLA-Forget improves forgetting efficacy by 10%, preserves perceptual specificity by 22%, retains reasoning and task success by 9%, and reduces post-quantization recovery by 55% relative to strong unlearning baselines.",
+  "authors": [
+    "Ravi Ranjan",
+    "Agoritsa Polyzou"
+  ],
+  "published": "2026-04-05T04:23:18Z",
+  "updated": "2026-04-05T04:23:18Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.03956v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.03956v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.111656+00:00"
+}

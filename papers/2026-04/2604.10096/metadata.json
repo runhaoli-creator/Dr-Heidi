@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2604.10096",
+  "version": "2604.10096v1",
+  "title": "ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents",
+  "summary": "Current embodied intelligent systems still face a substantial gap between high-level reasoning and low-level physical execution in open-world environments. Although Vision-Language-Action (VLA) models provide strong perception and intuitive responses, their open-loop nature limits long-horizon performance. Agents incorporating System 2 cognitive mechanisms improve planning, but usually operate in closed sandboxes with predefined toolkits and limited real-system control. OpenClaw provides a localized runtime with full system privileges, but lacks the embodied control architecture required for long-duration, multi-robot execution. We therefore propose ABot-Claw, an embodied extension of OpenClaw that integrates: 1) a unified embodiment interface with capability-driven scheduling for heterogeneous robot coordination; 2) a visual-centric cross-embodiment multimodal memory for persistent context retention and grounded retrieval; and 3) a critic-based closed-loop feedback mechanism with a generalist reward model for online progress evaluation, local correction, and replanning. With a decoupled architecture spanning the OpenClaw layer, shared service layer, and robot embodiment layer, ABot-Claw enables real-world interaction, closes the loop from natural language intent to physical action, and supports progressively self-evolving robotic agents in open, dynamic environments.",
+  "authors": [
+    "Dongjie Huo",
+    "Haoyun Liu",
+    "Guoqing Liu",
+    "Dekang Qi",
+    "Zhiming Sun",
+    "Maoguo Gao",
+    "Jianxin He",
+    "Yandan Yang",
+    "Xinyuan Chang",
+    "Feng Xiong",
+    "Xing Wei",
+    "Zhiheng Ma",
+    "Mu Xu"
+  ],
+  "published": "2026-04-11T08:33:14Z",
+  "updated": "2026-04-11T08:33:14Z",
+  "primary_category": "cs.CV",
+  "categories": [
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.10096v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.10096v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-19T04:42:10.409261+00:00"
+}

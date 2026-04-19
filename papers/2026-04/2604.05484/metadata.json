@@ -1,0 +1,35 @@
+{
+  "arxiv_id": "2604.05484",
+  "version": "2604.05484v1",
+  "title": "CoEnv: Driving Embodied Multi-Agent Collaboration via Compositional Environment",
+  "summary": "Multi-agent embodied systems hold promise for complex collaborative manipulation, yet face critical challenges in spatial coordination, temporal reasoning, and shared workspace awareness. Inspired by human collaboration where cognitive planning occurs separately from physical execution, we introduce the concept of compositional environment -- a synergistic integration of real-world and simulation components that enables multiple robotic agents to perceive intentions and operate within a unified decision-making space. Building on this concept, we present CoEnv, a framework that leverages simulation for safe strategy exploration while ensuring reliable real-world deployment. CoEnv operates through three stages: real-to-sim scene reconstruction that digitizes physical workspaces, VLM-driven action synthesis supporting both real-time planning with high-level interfaces and iterative planning with code-based trajectory generation, and validated sim-to-real transfer with collision detection for safe deployment. Extensive experiments on challenging multi-arm manipulation benchmarks demonstrate CoEnv's effectiveness in achieving high task success rates and execution efficiency, establishing a new paradigm for multi-agent embodied AI.",
+  "authors": [
+    "Li Kang",
+    "Yutao Fan",
+    "Rui Li",
+    "Heng Zhou",
+    "Yiran Qin",
+    "Zhemeng Zhang",
+    "Songtao Huang",
+    "Xiufeng Song",
+    "Zaibin Zhang",
+    "Bruno N. Y. Chen",
+    "Zhenfei Yin",
+    "Dongzhan Zhou",
+    "Wangmeng Zuo",
+    "Lei Bai"
+  ],
+  "published": "2026-04-07T06:24:41Z",
+  "updated": "2026-04-07T06:24:41Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.05484v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.05484v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-18T22:59:56.024293+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.11423",
+  "version": "2604.11423v1",
+  "title": "Dyadic Partnership(DP): A Missing Link Towards Full Autonomy in Medical Robotics",
+  "summary": "For the past decades medical robotic solutions were mostly based on the concept of tele-manipulation. While their design was extremely intelligent, allowing for better access, improved dexterity, reduced tremor, and improved imaging, their intelligence was limited. They therefore left cognition and decision making to the surgeon. As medical robotics advances towards high-level autonomy, the scientific community needs to explore the required pathway towards partial and full autonomy. Here, we introduce the concept of Dyadic Partnership(DP), a new paradigm in which robots and clinicians engage in intelligent, expert interaction and collaboration. The Dyadic Partners would discuss and agree on decisions and actions during their dynamic and interactive collaboration relying also on intuitive advanced media using generative AI, such as a world model, and advanced multi-modal visualization. This article outlines the foundational components needed to enable such systems, including foundation models for clinical intelligence, multi-modal intent recognition, co-learning frameworks, advanced visualization, and explainable, trust-aware interaction. We further discuss key challenges such as data scarcity, lack of standardization, and ethical acceptance. Dyadic partnership is introduced and is positioned as a powerful yet achievable, acceptable milestone offering a promising pathway toward safer, more intuitive collaboration and a gradual transition to full autonomy across diverse clinical settings.",
+  "authors": [
+    "Nassir Navab",
+    "Zhongliang Jiang"
+  ],
+  "published": "2026-04-13T13:05:14Z",
+  "updated": "2026-04-13T13:05:14Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.11423v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.11423v1",
+  "matched_groups": [
+    "embodied_foundation",
+    "wam"
+  ],
+  "fetched_at": "2026-04-18T22:59:42.910902+00:00"
+}

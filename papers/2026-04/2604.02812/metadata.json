@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2604.02812",
+  "version": "2604.02812v1",
+  "title": "Learning Structured Robot Policies from Vision-Language Models via Synthetic Neuro-Symbolic Supervision",
+  "summary": "Vision-language models (VLMs) have recently demonstrated strong capabilities in mapping multimodal observations to robot behaviors. However, most current approaches rely on end-to-end visuomotor policies that remain opaque and difficult to analyze, limiting their use in safety-critical robotic applications. In contrast, classical robotic systems often rely on structured policy representations that provide interpretability, modularity, and reactive execution. This work investigates how foundation models can be specialized to generate structured robot policies grounded in multimodal perception, bridging high-dimensional learning and symbolic control. We propose a neuro-symbolic approach in which a VLM synthesizes executable Behavior Tree policies from visual observations, natural language instructions, and structured system specifications. To enable scalable supervision without manual annotation, we introduce an automated pipeline that generates a synthetic multimodal dataset of domain-randomized scenes paired with instruction-policy examples produced by a foundation model. Real-world experiments on two robotic manipulators show that structured policies learned entirely from synthetic supervision transfer successfully to physical systems. The results indicate that foundation models can be adapted to produce interpretable and structured robot policies, providing an alternative to opaque end-to-end approaches for multimodal robot decision making.",
+  "authors": [
+    "Alessandro Adami",
+    "Tommaso Tubaldo",
+    "Marco Todescato",
+    "Ruggero Carli",
+    "Pietro Falco"
+  ],
+  "published": "2026-04-03T07:27:33Z",
+  "updated": "2026-04-03T07:27:33Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.02812v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.02812v1",
+  "matched_groups": [
+    "embodied_foundation"
+  ],
+  "fetched_at": "2026-04-18T22:59:47.112310+00:00"
+}
