@@ -71,7 +71,7 @@ This is not "add an ensemble to WAV" — the representation change (particles in
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**
@@ -135,7 +135,7 @@ Starting from frozen WAV weights (2604.14732):
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: 2026-04-18
 
 **Checklist**

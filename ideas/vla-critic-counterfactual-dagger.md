@@ -73,7 +73,7 @@ This is not distillation from a VLA teacher (the student never imitates the VLA'
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**
@@ -129,7 +129,7 @@ Turn a pretrained VLA into a *counterfactual critic* that ranks a diverse, asymm
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: 2026-04-18
 
 **Checklist**

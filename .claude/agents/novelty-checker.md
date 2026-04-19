@@ -25,7 +25,7 @@ The reviewer gives you:
 
 2. **Run WebSearch** on the best query. Skim titles/abstracts. If 1–2 candidates look close, run WebFetch on their abstracts to confirm.
 
-3. **(Optional)** Grep `papers/**/metadata.json` for title keyword matches in the local KB metadata pool (may catch fetched-but-not-digested papers). **Do NOT search `ideas/` for prior art** — those are Dr. Agent's own drafts, including the file currently under review; they are not external publications. If the reviewer wants you to surface overlap with a *sister local idea*, they will name it explicitly in the brief; otherwise treat `ideas/` as out-of-scope.
+3. **(Optional)** Grep `papers/**/metadata.json` for title keyword matches in the local KB metadata pool (may catch fetched-but-not-digested papers). **Do NOT search `ideas/` for prior art** — those are Dr. Heidi's own drafts, including the file currently under review; they are not external publications. If the reviewer wants you to surface overlap with a *sister local idea*, they will name it explicitly in the brief; otherwise treat `ideas/` as out-of-scope.
 
 4. **Classify the collision**:
 

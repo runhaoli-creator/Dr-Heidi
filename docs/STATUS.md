@@ -1,4 +1,4 @@
-# Status — Dr. Agent
+# Status — Dr. Heidi
 
 **Phase:** Phase 2 + Phase 3 (novelty-checker + idea-validator); Round 1 validated.
 **Last updated:** 2026-04-18

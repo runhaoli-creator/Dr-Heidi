@@ -78,7 +78,7 @@ This is not Goal2Skill's dual-system hierarchy (2604.13942) ported to 3D-ALP: Go
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**

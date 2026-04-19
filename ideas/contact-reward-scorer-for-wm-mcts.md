@@ -71,7 +71,7 @@ This is **not** AIM inside a VLA executor — AIM's ASVM normally feeds an actio
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**
@@ -109,7 +109,7 @@ date: 2026-04-18
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: 2026-04-18
 
 **Checklist**

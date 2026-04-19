@@ -1,4 +1,4 @@
-# Dr. Agent arXiv query set — Embodied AI / Robotics / WAM / VLA
+# Dr. Heidi arXiv query set — Embodied AI / Robotics / WAM / VLA
 # Each group is OR'd within keywords, AND'd with categories.
 # Keywords with AND/OR/quotes MUST be wrapped in single quotes (YAML escaping).
 # Keep keywords specific; broad terms alone will flood results.

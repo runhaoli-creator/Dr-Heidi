@@ -8,7 +8,7 @@ A replay viewer that turns past Claude Code agent runs in this project into a wa
 ./run.sh
 ```
 
-Opens `http://127.0.0.1:8765/` automatically. Requires the `.venv-new` venv that was set up during build (the original `.venv` had a stale shebang from the project's earlier "Dr. Agent" name and could not be edited by this session).
+Opens `http://127.0.0.1:8765/` automatically. Requires the `.venv-new` venv that was set up during build (the original `.venv` had a stale Python shebang pointing at a directory that had been renamed; it couldn't be edited by this session).
 
 To rebuild the venv from scratch:
 
@@ -23,7 +23,7 @@ python3 -m venv .venv-new
 - Reads parent session JSONLs and per-subagent JSONLs from `~/.claude/projects/<encoded>/<session>/`.
 - Normalizes to a flat `Event` stream with stable agent attribution. Schema in `events.py`.
 - Detects "ideation runs" via gap-based heuristic (default 30-min inactivity gap; override via `detect_runs(..., inactivity_gap_s=N)`).
-- Description-based role inference for legacy `general-purpose` subagents — so the older Dr. Agent session also replays.
+- Description-based role inference for legacy `general-purpose` subagents — so older sessions (recorded before the dedicated agent types existed) also replay.
 - 15 pytest tests, all passing, against real fixtures from your two sessions.
 
 ### Phase 0b — FastAPI backend + SSE (`webui/backend/dr_heidi_webui/app.py`)
@@ -66,7 +66,7 @@ python3 -m venv .venv-new
 | Decision | Why |
 |---|---|
 | **Vanilla HTML/CSS/JS instead of Svelte+Vite** | No `node`/`npm` on this Mac. Installing Node would have blocked progress. Vanilla works for the small surface area; component-like organization preserved via ES modules. Trade-off: no compile-time reactivity sugar, but the pub-sub store + `requestAnimationFrame`-throttled rerender keeps it smooth. |
-| **`.venv-new` instead of fixing `.venv`** | The original `.venv` had a shebang pointing at `/Users/runhaoli/Desktop/Dr. Agent/...` which no longer exists; rebuilding required `rm -rf` which is denied by your settings. Created `.venv-new` and wired everything to point at it; harmless for v1, document-and-go. |
+| **`.venv-new` instead of fixing `.venv`** | The original `.venv` had a Python shebang pointing at a directory that had been renamed; rebuilding required `rm -rf` which is denied by your settings. Created `.venv-new` and wired everything to point at it; harmless for v1, document-and-go. |
 | **30-min inactivity gap for run detection** | The Dr. Heidi session had a 90-min audit-debug pause inside one ideation; bigger gaps would cluster too aggressively, smaller would split runs. Configurable via `detect_runs(..., inactivity_gap_s=N)`. |
 | **Validator card top-right, not center stage** | Initial design (center stage) intercepted clicks on the main characters. Top-right is unobtrusive and visible without blocking. |
 | **Bubble persists for done agents** | Lets you see the last thing they said even after they're "offstage". Cleared only for novelty/validator agents (whose state is rendered separately). |
@@ -148,7 +148,7 @@ FINAL_REPORT.md               # this file
 ## What you'll see when you run it
 
 1. `./run.sh` boots uvicorn and opens your browser.
-2. Home page lists 5 detected runs grouped by project (Dr. Heidi: 1 / Dr. Agent: 4).
+2. Home page lists detected runs grouped by project (project label is derived from the on-disk session directory name in `~/.claude/projects/`).
 3. Click any run → stage view loads; first 1–2 seconds are blank as the first events stream in.
 4. Two characters appear; the ideator does its thinking/tool work; speech bubbles type out.
 5. When the reviewer is spawned, the librarian sprite walks on (full size for single, mini-row of 9 for the parallel audit batch). Once all librarians complete, they collapse to one.

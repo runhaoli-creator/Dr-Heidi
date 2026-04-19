@@ -44,7 +44,7 @@ Path to an idea file in `ideas/<slug>.md` (already reviewed; contains a `## Revi
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: <YYYY-MM-DD>
 
 **Checklist**

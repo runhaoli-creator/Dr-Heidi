@@ -1,6 +1,6 @@
 # Seeds
 
-Anchor papers and half-formed ideas that steer Dr. Agent's ideation.
+Anchor papers and half-formed ideas that steer Dr. Heidi's ideation.
 
 ## How to add a seed
 
@@ -25,7 +25,7 @@ priority: high | medium | low
 - <...>
 ```
 
-## How Dr. Agent uses seeds
+## How Dr. Heidi uses seeds
 
 - `paper-scout` uses seed tags to weight relevance.
 - `ideate` reads every seed + recent paper digests; every generated idea must cite ≥3 unique recent papers from `papers/` (seeds are optional and cited only if directly relevant).

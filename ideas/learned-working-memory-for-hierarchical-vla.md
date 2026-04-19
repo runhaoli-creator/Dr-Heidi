@@ -73,7 +73,7 @@ This is **not** a new hierarchy or a new planner — Goal2Skill's VLM planner, s
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**
@@ -151,7 +151,7 @@ None added — MemoryVLA (2508.19236) and CoMEM (2505.17670) are the obvious adj
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: 2026-04-18
 
 **Checklist**

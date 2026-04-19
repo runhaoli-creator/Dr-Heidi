@@ -1,4 +1,4 @@
-# Round 0 Audit — Dr. Agent Dual-Agent Pipeline
+# Round 0 Audit — Dr. Heidi Dual-Agent Pipeline
 date: 2026-04-18
 
 ## Pipeline Output

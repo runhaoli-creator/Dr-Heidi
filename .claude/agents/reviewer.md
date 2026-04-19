@@ -67,7 +67,7 @@ Append to the idea file:
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: <YYYY-MM-DD>
 
 **Scores**

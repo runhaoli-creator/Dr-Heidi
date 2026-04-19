@@ -1,11 +1,11 @@
 ---
 name: paper-scout
-description: Fetch the latest arXiv papers matching Dr. Agent's WAM/VLA query set and save new entries to papers/YYYY-MM/<arxiv_id>/metadata.json. Run at the start of an ideation session or daily via cron. Invoke when the user says "find new papers", "scan arxiv", "refresh the KB", or when `ideate` needs fresh inputs.
+description: Fetch the latest arXiv papers matching Dr. Heidi's WAM/VLA query set and save new entries to papers/YYYY-MM/<arxiv_id>/metadata.json. Run at the start of an ideation session or daily via cron. Invoke when the user says "find new papers", "scan arxiv", "refresh the KB", or when `ideate` needs fresh inputs.
 ---
 
 # paper-scout
 
-Pulls recent arXiv papers into Dr. Agent's local knowledge base.
+Pulls recent arXiv papers into Dr. Heidi's local knowledge base.
 
 ## When to use
 - Start of an ideation session (ensures fresh inputs before `/ideate`).

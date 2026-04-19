@@ -75,7 +75,7 @@ This is not saliency-over-actions (e.g., Grad-CAM on policy output); the signal 
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**

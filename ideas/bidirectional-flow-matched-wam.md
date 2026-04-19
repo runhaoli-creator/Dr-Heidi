@@ -70,7 +70,7 @@ This is **not** VAG with a second cross-attention layer bolted on — the load-b
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**
@@ -145,7 +145,7 @@ None added. All three cited arxiv IDs (2604.09330, 2604.14732, 2604.11351) exist
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: 2026-04-18
 
 **Checklist**

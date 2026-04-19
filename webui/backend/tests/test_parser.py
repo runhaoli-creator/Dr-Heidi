@@ -1,7 +1,8 @@
 """Parser tests against real Claude Code session JSONLs.
 
 These tests are skipped if the user's Claude Code projects directory
-doesn't contain a Dr. Heidi or Dr. Agent session. CI users would need
+doesn't contain a Dr. Heidi session (or the legacy "Dr. Agent" session
+directory from before the project was renamed). CI users would need
 their own fixtures.
 """
 from __future__ import annotations
@@ -87,7 +88,7 @@ def test_detect_runs_heidi_finds_at_least_one():
         assert len(r.agent_ids) > 0
 
 
-@pytest.mark.skipif(_agent_session() is None, reason="no Dr. Agent session")
+@pytest.mark.skipif(_agent_session() is None, reason="no legacy session present")
 def test_detect_runs_agent_session_finds_runs():
     s = _agent_session()
     runs = detect_runs(s)

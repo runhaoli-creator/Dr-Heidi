@@ -91,7 +91,7 @@ Differentiation from sister local idea `risk-aware-particle-planner-for-wam.md`:
 ---
 
 ## Review
-reviewer: dr-agent-reviewer
+reviewer: dr-heidi-reviewer
 date: 2026-04-18
 
 **Scores**
@@ -174,7 +174,7 @@ Inputs unchanged: frozen WAV video generator W, value head V, action decoder, de
 ---
 
 ## Validator
-validator: dr-agent-validator
+validator: dr-heidi-validator
 date: 2026-04-18
 
 **Checklist**

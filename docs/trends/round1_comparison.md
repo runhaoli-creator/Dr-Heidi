@@ -1,4 +1,4 @@
-# Round 0 vs Round 1 — Dr. Agent Delta Report
+# Round 0 vs Round 1 — Dr. Heidi Delta Report
 date: 2026-04-18
 
 ## Headline

@@ -1,7 +1,7 @@
-# Dr. Agent
+# Dr. Heidi
 
 ## Overview
-A research idea generator for Embodied AI / Robotics, focused on WAM (World-Action Models) and VLA (Vision-Language-Action) directions. Dr. Agent autonomously scans fresh arXiv uploads, digests them into a local knowledge base, and synthesizes user-provided seed ideas with the latest literature to propose high-impact, grounded research directions.
+A research idea generator for Embodied AI / Robotics, focused on WAM (World-Action Models) and VLA (Vision-Language-Action) directions. Dr. Heidi autonomously scans fresh arXiv uploads, digests them into a local knowledge base, and synthesizes user-provided seed ideas with the latest literature to propose high-impact, grounded research directions.
 
 ## Target Venue
 - Venue: TBD

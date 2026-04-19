@@ -1,6 +1,6 @@
 ---
 name: ideate
-description: Run Dr. Agent's dual-agent idea generation loop — Lead Researcher drafts research ideas grounded in recent innovative papers, then a Reviewer Agent peer-reviews each for novelty / impact / feasibility at top-tier venues (CVPR / NeurIPS / ICRA). Only ideas that pass review are presented to the user. Invoke when the user says "brainstorm ideas", "ideate", "what should I work on", "generate research directions".
+description: Run Dr. Heidi's dual-agent idea generation loop — Lead Researcher drafts research ideas grounded in recent innovative papers, then a Reviewer Agent peer-reviews each for novelty / impact / feasibility at top-tier venues (CVPR / NeurIPS / ICRA). Only ideas that pass review are presented to the user. Invoke when the user says "brainstorm ideas", "ideate", "what should I work on", "generate research directions".
 ---
 
 # ideate
@@ -42,7 +42,7 @@ For each draft in `ideas/_draft/`:
 1. **Spawn `novelty-checker` first.** Brief it with:
    > Idea pitch: <2-sentence pitch from the draft>. Core primitive: <the non-obvious move>. Check live arXiv / web for close prior art. Report in your spec's exact format: closest 0-3 priors, verdict (clean / adjacent / direct-collision), one-sentence rationale, what the reviewer should do.
    >
-   > Per your spec, do NOT treat files in `ideas/` as prior art (those are Dr. Agent's own drafts including the one under review). If you want to surface overlap with a sister local idea, name it here: <list of relevant existing ideas, if any>.
+   > Per your spec, do NOT treat files in `ideas/` as prior art (those are Dr. Heidi's own drafts including the one under review). If you want to surface overlap with a sister local idea, name it here: <list of relevant existing ideas, if any>.
 
 2. **Spawn the `reviewer` subagent** with a brief that includes the novelty-checker's full report verbatim:
    > Review the idea at `ideas/_draft/<slug>.md`. Follow your full procedure in `.claude/agents/reviewer.md`. The `novelty-checker` has already run; its report is below. Use it for Novelty scoring and the non-trash "Not already done" checkbox; do NOT attempt to re-spawn novelty-checker.
