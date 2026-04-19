@@ -19,6 +19,7 @@ __pycache__/
 
 # Env / editors
 .venv/
+.venv-*/
 venv/
 env/
 .env
@@ -33,5 +34,14 @@ data/
 *.npz
 *.h5
 
-# Dr. Agent — don't commit fetched PDFs or extracted text
+# Dr. Heidi — don't commit fetched PDFs or extracted text
 papers/**/pdf/
+
+# Web UI dev artifacts
+webui/_screenshots/
+webui/backend/.pytest_cache/
+webui/backend/dr_heidi_webui.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
