@@ -348,11 +348,11 @@ def _extract_subagent_events(
             msg = rec.get("message", {})
             if not isinstance(msg, dict):
                 continue
-            role = msg.get("role")
+            msg_role = msg.get("role")
             content = msg.get("content", []) or []
             if not isinstance(content, list):
                 # Sometimes content is a string for user records
-                if role == "user" and isinstance(content, str):
+                if msg_role == "user" and isinstance(content, str):
                     # The very first user record carries the brief; skip emitting it as text
                     continue
                 continue
@@ -360,14 +360,14 @@ def _extract_subagent_events(
                 if not isinstance(c, dict):
                     continue
                 ctype = c.get("type")
-                if role == "assistant" and ctype == "thinking":
+                if msg_role == "assistant" and ctype == "thinking":
                     out.append(Event(
                         seq=seq, ts=ts, type=EVT_AGENT_THINKING,
                         agent_role=role, agent_id=sa.agent_id,
                         payload={"text": c.get("thinking") or c.get("text", "")},
                     ))
                     seq += 1
-                elif role == "assistant" and ctype == "text":
+                elif msg_role == "assistant" and ctype == "text":
                     text = c.get("text", "")
                     out.append(Event(
                         seq=seq, ts=ts, type=EVT_AGENT_TEXT,
@@ -382,7 +382,7 @@ def _extract_subagent_events(
                         # mark first reviewer text as "first critique"
                         out[-1].marker = MK_FIRST_CRITIQUE
                         first_text_emitted = True
-                elif role == "assistant" and ctype == "tool_use":
+                elif msg_role == "assistant" and ctype == "tool_use":
                     name = c.get("name", "?")
                     args = c.get("input", {}) or {}
                     args_summary = _summarize_args(name, args)
@@ -411,7 +411,7 @@ def _extract_subagent_events(
                             marker=marker,
                         ))
                         seq += 1
-                elif role == "user" and ctype == "tool_result":
+                elif msg_role == "user" and ctype == "tool_result":
                     raw = c.get("content")
                     summary = _summarize_tool_result(raw)
                     out.append(Event(
