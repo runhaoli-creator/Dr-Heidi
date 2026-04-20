@@ -22,8 +22,9 @@ An arXiv id (e.g., `2404.12345`) or path to `metadata.json`.
 
 3. **Extract text.**
    ```bash
-   pdftotext -layout papers/<YYYY-MM>/<id>/pdf/paper.pdf papers/<YYYY-MM>/<id>/pdf/paper.txt
+   pdftotext papers/<YYYY-MM>/<id>/pdf/paper.pdf papers/<YYYY-MM>/<id>/pdf/paper.txt
    ```
+   Default (reflow) mode — produces flush-left text. Do NOT use `-layout`; it preserves column indentation and leaves every line leading with 10-30 spaces.
 
 4. **Read selectively.** Do NOT load the whole paper into context. Use:
    - `Read` the abstract/intro via a short offset window.
