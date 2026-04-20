@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2604.15671",
+  "version": "2604.15671v1",
+  "title": "Long-Term Memory for VLA-based Agents in Open-World Task Execution",
+  "summary": "Vision-Language-Action (VLA) models have demonstrated significant potential for embodied decision-making; however, their application in complex chemical laboratory automation remains restricted by limited long-horizon reasoning and the absence of persistent experience accumulation. Existing frameworks typically treat planning and execution as decoupled processes, often failing to consolidate successful strategies, which results in inefficient trial-and-error in multi-stage protocols. In this paper, we propose ChemBot, a dual-layer, closed-loop framework that integrates an autonomous AI agent with a progress-aware VLA model (Skill-VLA) for hierarchical task decomposition and execution. ChemBot utilizes a dual-layer memory architecture to consolidate successful trajectories into retrievable assets, while a Model Context Protocol (MCP) server facilitates efficient sub-agent and tool orchestration. To address the inherent limitations of VLA models, we further implement a future-state-based asynchronous inference mechanism to mitigate trajectory discontinuities. Extensive experiments on collaborative robots demonstrate that ChemBot achieves superior operational safety, precision, and task success rates compared to existing VLA baselines in complex, long-horizon chemical experimentation.",
+  "authors": [
+    "Xu Huang",
+    "Weixin Mao",
+    "Yinhao Li",
+    "Hua Chen",
+    "Jiabao Zhao"
+  ],
+  "published": "2026-04-17T03:49:41Z",
+  "updated": "2026-04-17T03:49:41Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.15671v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.15671v1",
+  "matched_groups": [
+    "vla"
+  ],
+  "fetched_at": "2026-04-20T05:42:26.599954+00:00"
+}

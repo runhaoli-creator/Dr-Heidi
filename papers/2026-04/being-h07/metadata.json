@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "being-h07",
+  "title": "Being-H0.7: A Latent World-Action Model from Egocentric Videos",
+  "summary": "We present Being-H0.7, a latent world-action model that generates actions by modeling world dynamics in the latent space. Visual-Language-Action models (VLA) have demonstrated strong capabilities across diverse robotic tasks by directly mapping observations to actions. However, limited and sparse action supervision often leads to behavior collapse, preventing these models from learning physically grounded and diverse action representations. Recent works instead introduce world-action models (WAMs) built upon video generation, which attempt to capture future evolution through dense pixel prediction, leveraging large-scale video pretraining to improve generalization. Yet, they require future trajectory rollouts at inference time, resulting in substantial latency, and may suffer from imperfect predicted pixels. Our choice is to bridge them via latent world modeling, introducing a compact latent reasoning space between perception and action. We instantiate this with a small set of learnable latent queries that support a compact reasoning interface carrying future-relevant information before action generation. To shape the reasoning space efficiently, we use a dual-branch design that aligns the queries with future-aware embeddings in the latent space. In experiments, Being-H0.7 delivers state-of-the-art overall performance across six simulation benchmarks and completes challenging real-world tasks that require dynamic prediction and motion reasoning.",
+  "authors": ["BeingBeyond Team"],
+  "published": "2026-04-14T00:00:00Z",
+  "primary_category": "cs.RO",
+  "categories": ["cs.RO", "cs.LG", "cs.CV"],
+  "abs_url": "https://research.beingbeyond.com/being-h07",
+  "pdf_url": "https://research.beingbeyond.com/projects/being-h07/being-h07.pdf",
+  "matched_groups": ["wam"],
+  "fetched_at": "2026-04-19T00:00:00+00:00"
+}

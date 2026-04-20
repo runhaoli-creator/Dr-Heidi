@@ -1,0 +1,14 @@
+# Gaps
+
+- **Flat 32-slot pool, no task/scale dispatch.** Slots are one homogeneous set competing for all patches at one spatial scale; nothing routes "gripper-level" vs "block-level" vs "scene-level" queries to different slot groups. A hierarchical / task-dispatched latent-query structure (e.g., K-queries grouped by temporal level L0/L1/L2 or by causal role agent/patient) is never tried — direct opening for Dr. Heidi's latent-query-structure axis.
+- **Existence head is dead code.** palive never learns to kill slots; Nmax is effectively fixed. No curriculum, no entropy bonus, no capacity-annealing schedule is tried. Actionable: KL-annealed alive prior, codebook-dedup (MetaSlot), or merge-step after Stage 1.
+- **Three temporal levels are hard-wired.** No ablation on (a) number of hierarchy levels, (b) event-detector threshold / sparsity K, (c) whether the global SSM is necessary. Unknown whether 3 is the right count or whether levels should be learned / data-driven.
+- **"Causal" claim is unfalsified.** Explicit DAG collapses to zero; GNN edges are never compared against ground-truth interactions; no intervention / counterfactual eval. Need a benchmark with known causal structure (e.g., Physion, CausalWorld, CLEVRER) and do-operator metrics.
+- **No planning or control numbers.** CEM/MPPI + goal transformer exist in code but are unevaluated. The core promise — "world models that policies can plan through" — has zero closed-loop evidence.
+- **Single-task, near-rigid, 3-object benchmark.** PushT cannot demonstrate the object-centric advantage; multi-object (ALOHA, RoboCasa, LIBERO) comparisons to SlotFormer / Slot-SSM / DINOSAUR dynamics are missing.
+- **bf16 numerical fragility is unresolved.** 40–60% seed divergence + Base/Large NaN + broken FSDP means no one can reproduce scale claims. Root-cause analysis (GRU activation distribution, SSM A-init, Gumbel temperature) is a concrete engineering gap.
+- **Stage 1 duration is a magic number (40%).** No study of r; no data-driven transition criterion (e.g., SBD loss plateau, slot-entropy threshold). A learned or adaptive stage-1-exit rule is low-hanging.
+- **No ViT warm-start despite relying on ViT features as targets.** Authors flag V-JEPA 2 init as future work; the perception layer is learning from scratch and its SBD targets come from its own EMA — circular target risk.
+- **Latent state has no explicit factorization by role.** Slots ≠ objects, and there is no "what" vs "where" split, no agent-vs-patient tag, no affordance head. A role-typed latent-state structure could be added on top of the slot pool.
+- **Continual memory (Layer 5, Hopfield + EWC) is on the diagram only.** No experiments, no forgetting metrics, no multi-task eval.
+- **Language/goal conditioning is architectural.** Goal transformer accepts embeddings but no text-conditioned rollout is shown; unclear if the compressed goal tokens carry task-relevant information.

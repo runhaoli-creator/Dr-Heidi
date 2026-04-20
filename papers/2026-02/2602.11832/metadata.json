@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2602.11832",
+  "version": "2602.11832v1",
+  "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
+  "summary": "Recent vision-language-action (VLA) models built upon pretrained vision-language models (VLMs) have achieved significant improvements in robotic manipulation. However, current VLAs still suffer from low sample efficiency and limited generalization. This paper argues that these limitations are closely tied to an overlooked component, pretrained visual representation, which offers insufficient knowledge on both aspects of environment understanding and policy prior. Through an in-depth analysis, we find that commonly used visual representations in VLAs, whether pretrained via language-image contrastive learning or image-based self-supervised learning, remain inadequate at capturing crucial, task-relevant environment information and at inducing effective policy priors, i.e., anticipatory knowledge of how the environment evolves under successful task execution. In contrast, we discover that predictive embeddings pretrained on videos, in particular V-JEPA 2, are adept at flexibly discarding unpredictable environment factors and encoding task-relevant temporal dynamics, thereby effectively compensating for key shortcomings of existing visual representations in VLAs. Building on these observations, we introduce JEPA-VLA, a simple yet effective approach that adaptively integrates predictive embeddings into existing VLAs. Our experiments demonstrate that JEPA-VLA yields substantial performance gains across a range of benchmarks, including LIBERO, LIBERO-plus, RoboTwin2.0, and real-robot tasks.",
+  "authors": ["Shangchen Miao", "Ningya Feng", "Jialong Wu", "Ye Lin", "Xu He", "Dong Li", "Mingsheng Long"],
+  "published": "2026-02-12T11:20:43Z",
+  "updated": "2026-02-12T11:20:43Z",
+  "primary_category": "cs.CV",
+  "categories": ["cs.CV", "cs.RO"],
+  "abs_url": "http://arxiv.org/abs/2602.11832v1",
+  "pdf_url": "https://arxiv.org/pdf/2602.11832v1",
+  "matched_groups": ["vla", "wam"],
+  "fetched_at": "2026-04-19T00:00:00+00:00"
+}

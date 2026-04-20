@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2604.15805",
+  "version": "2604.15805v1",
+  "title": "From Seeing to Simulating: Generative High-Fidelity Simulation with Digital Cousins for Generalizable Robot Learning and Evaluation",
+  "summary": "Learning robust robot policies in real-world environments requires diverse data augmentation, yet scaling real-world data collection is costly due to the need for acquiring physical assets and reconfiguring environments. Therefore, augmenting real-world scenes into simulation has become a practical augmentation for efficient learning and evaluation. We present a generative framework that establishes a generative real-to-sim mapping from real-world panoramas to high-fidelity simulation scenes, and further synthesize diverse cousin scenes via semantic and geometric editing. Combined with high-quality physics engines and realistic assets, the generated scenes support interactive manipulation tasks. Additionally, we incorporate multi-room stitching to construct consistent large-scale environments for long-horizon navigation across complex layouts. Experiments demonstrate a strong sim-to-real correlation validating our platform's fidelity, and show that extensively scaling up data generation leads to significantly better generalization to unseen scene and object variations, demonstrating the effectiveness of Digital Cousins for generalizable robot learning and evaluation.",
+  "authors": [
+    "Jasper Lu",
+    "Zhenhao Shen",
+    "Yuanfei Wang",
+    "Shugao Liu",
+    "Shengqiang Xu",
+    "Shawn Xie",
+    "Jingkai Xu",
+    "Feng Jiang",
+    "Jade Yang",
+    "Chen Xie",
+    "Ruihai Wu"
+  ],
+  "published": "2026-04-17T08:06:26Z",
+  "updated": "2026-04-17T08:06:26Z",
+  "primary_category": "cs.RO",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "abs_url": "http://arxiv.org/abs/2604.15805v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.15805v1",
+  "matched_groups": [
+    "sim_to_real"
+  ],
+  "fetched_at": "2026-04-20T05:42:42.497409+00:00"
+}
